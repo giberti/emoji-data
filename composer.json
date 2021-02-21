@@ -1,11 +1,13 @@
 {
     "name": "giberti/emoji-data",
+    "description": "PHP classes with constant to multibyte emoji characters",
+    "license": "MIT",
     "type": "library",
     "config": {
         "sort-packages": true
     },
     "require-dev": {
-        "php": "^7.3",
+        "php": "^7.3 || ^8.0",
         "nicmart/tree": "^0.3.0",
         "phpunit/phpunit": "^9.3",
         "twig/twig": "^3.0"
