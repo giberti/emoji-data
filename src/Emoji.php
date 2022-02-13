@@ -4,7 +4,7 @@ declare(strict_types=1);
 namespace Giberti\EmojiData;
 
 /**
- * Copyright 2020 Erik Giberti
+ * Copyright 2022 Erik Giberti
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -24,10 +24,10 @@ namespace Giberti\EmojiData;
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This file was automatically generated on 2020-09-26 using data files
+ * This file was automatically generated on 2022-02-13 using data files
  * provided by Unicode Inc.
  *
- * @link https://unicode.org/Public/emoji/13.1/emoji-test.txt Emoji Keyboard/Display Test Data
+ * @link http://unicode.org/Public/emoji/14.0/emoji-test.txt Emoji Keyboard/Display Test Data
  * @link https://www.unicode.org/license.html Unicode Data File license
  */
 class Emoji
@@ -42,6 +42,7 @@ class Emoji
     public const FACE_WITH_TEARS_OF_JOY = "\u{1F602}"; // 😂  face with tears of joy
     public const SLIGHTLY_SMILING_FACE = "\u{1F642}"; // 🙂  slightly smiling face
     public const UPSIDE_DOWN_FACE = "\u{1F643}"; // 🙃  upside-down face
+    public const MELTING_FACE = "\u{1FAE0}"; // 🫠  melting face
     public const WINKING_FACE = "\u{1F609}"; // 😉  winking face
     public const SMILING_FACE_WITH_SMILING_EYES = "\u{1F60A}"; // 😊  smiling face with smiling eyes
     public const SMILING_FACE_WITH_HALO = "\u{1F607}"; // 😇  smiling face with halo
@@ -60,15 +61,19 @@ class Emoji
     public const ZANY_FACE = "\u{1F92A}"; // 🤪  zany face
     public const SQUINTING_FACE_WITH_TONGUE = "\u{1F61D}"; // 😝  squinting face with tongue
     public const MONEY_MOUTH_FACE = "\u{1F911}"; // 🤑  money-mouth face
-    public const HUGGING_FACE = "\u{1F917}"; // 🤗  hugging face
+    public const SMILING_FACE_WITH_OPEN_HANDS = "\u{1F917}"; // 🤗  smiling face with open hands
     public const FACE_WITH_HAND_OVER_MOUTH = "\u{1F92D}"; // 🤭  face with hand over mouth
+    public const FACE_WITH_OPEN_EYES_AND_HAND_OVER_MOUTH = "\u{1FAE2}"; // 🫢  face with open eyes and hand over mouth
+    public const FACE_WITH_PEEKING_EYE = "\u{1FAE3}"; // 🫣  face with peeking eye
     public const SHUSHING_FACE = "\u{1F92B}"; // 🤫  shushing face
     public const THINKING_FACE = "\u{1F914}"; // 🤔  thinking face
+    public const SALUTING_FACE = "\u{1FAE1}"; // 🫡  saluting face
     public const ZIPPER_MOUTH_FACE = "\u{1F910}"; // 🤐  zipper-mouth face
     public const FACE_WITH_RAISED_EYEBROW = "\u{1F928}"; // 🤨  face with raised eyebrow
     public const NEUTRAL_FACE = "\u{1F610}"; // 😐  neutral face
     public const EXPRESSIONLESS_FACE = "\u{1F611}"; // 😑  expressionless face
     public const FACE_WITHOUT_MOUTH = "\u{1F636}"; // 😶  face without mouth
+    public const DOTTED_LINE_FACE = "\u{1FAE5}"; // 🫥  dotted line face
     public const FACE_IN_CLOUDS = "\u{1F636}\u{200D}\u{1F32B}\u{FE0F}"; // 😶‍🌫️  face in clouds
     public const SMIRKING_FACE = "\u{1F60F}"; // 😏  smirking face
     public const UNAMUSED_FACE = "\u{1F612}"; // 😒  unamused face
@@ -90,7 +95,7 @@ class Emoji
     public const HOT_FACE = "\u{1F975}"; // 🥵  hot face
     public const COLD_FACE = "\u{1F976}"; // 🥶  cold face
     public const WOOZY_FACE = "\u{1F974}"; // 🥴  woozy face
-    public const KNOCKED_OUT_FACE = "\u{1F635}"; // 😵  knocked-out face
+    public const FACE_WITH_CROSSED_OUT_EYES = "\u{1F635}"; // 😵  face with crossed-out eyes
     public const FACE_WITH_SPIRAL_EYES = "\u{1F635}\u{200D}\u{1F4AB}"; // 😵‍💫  face with spiral eyes
     public const EXPLODING_HEAD = "\u{1F92F}"; // 🤯  exploding head
     public const COWBOY_HAT_FACE = "\u{1F920}"; // 🤠  cowboy hat face
@@ -100,6 +105,7 @@ class Emoji
     public const NERD_FACE = "\u{1F913}"; // 🤓  nerd face
     public const FACE_WITH_MONOCLE = "\u{1F9D0}"; // 🧐  face with monocle
     public const CONFUSED_FACE = "\u{1F615}"; // 😕  confused face
+    public const FACE_WITH_DIAGONAL_MOUTH = "\u{1FAE4}"; // 🫤  face with diagonal mouth
     public const WORRIED_FACE = "\u{1F61F}"; // 😟  worried face
     public const SLIGHTLY_FROWNING_FACE = "\u{1F641}"; // 🙁  slightly frowning face
     public const FROWNING_FACE = "\u{2639}\u{FE0F}"; // ☹️  frowning face
@@ -108,6 +114,7 @@ class Emoji
     public const ASTONISHED_FACE = "\u{1F632}"; // 😲  astonished face
     public const FLUSHED_FACE = "\u{1F633}"; // 😳  flushed face
     public const PLEADING_FACE = "\u{1F97A}"; // 🥺  pleading face
+    public const FACE_HOLDING_BACK_TEARS = "\u{1F979}"; // 🥹  face holding back tears
     public const FROWNING_FACE_WITH_OPEN_MOUTH = "\u{1F626}"; // 😦  frowning face with open mouth
     public const ANGUISHED_FACE = "\u{1F627}"; // 😧  anguished face
     public const FEARFUL_FACE = "\u{1F628}"; // 😨  fearful face
@@ -218,6 +225,30 @@ class Emoji
     public const VULCAN_SALUTE_MEDIUM_SKIN_TONE = "\u{1F596}\u{1F3FD}"; // 🖖🏽  vulcan salute: medium skin tone
     public const VULCAN_SALUTE_MEDIUM_DARK_SKIN_TONE = "\u{1F596}\u{1F3FE}"; // 🖖🏾  vulcan salute: medium-dark skin tone
     public const VULCAN_SALUTE_DARK_SKIN_TONE = "\u{1F596}\u{1F3FF}"; // 🖖🏿  vulcan salute: dark skin tone
+    public const RIGHTWARDS_HAND = "\u{1FAF1}"; // 🫱  rightwards hand
+    public const RIGHTWARDS_HAND_LIGHT_SKIN_TONE = "\u{1FAF1}\u{1F3FB}"; // 🫱🏻  rightwards hand: light skin tone
+    public const RIGHTWARDS_HAND_MEDIUM_LIGHT_SKIN_TONE = "\u{1FAF1}\u{1F3FC}"; // 🫱🏼  rightwards hand: medium-light skin tone
+    public const RIGHTWARDS_HAND_MEDIUM_SKIN_TONE = "\u{1FAF1}\u{1F3FD}"; // 🫱🏽  rightwards hand: medium skin tone
+    public const RIGHTWARDS_HAND_MEDIUM_DARK_SKIN_TONE = "\u{1FAF1}\u{1F3FE}"; // 🫱🏾  rightwards hand: medium-dark skin tone
+    public const RIGHTWARDS_HAND_DARK_SKIN_TONE = "\u{1FAF1}\u{1F3FF}"; // 🫱🏿  rightwards hand: dark skin tone
+    public const LEFTWARDS_HAND = "\u{1FAF2}"; // 🫲  leftwards hand
+    public const LEFTWARDS_HAND_LIGHT_SKIN_TONE = "\u{1FAF2}\u{1F3FB}"; // 🫲🏻  leftwards hand: light skin tone
+    public const LEFTWARDS_HAND_MEDIUM_LIGHT_SKIN_TONE = "\u{1FAF2}\u{1F3FC}"; // 🫲🏼  leftwards hand: medium-light skin tone
+    public const LEFTWARDS_HAND_MEDIUM_SKIN_TONE = "\u{1FAF2}\u{1F3FD}"; // 🫲🏽  leftwards hand: medium skin tone
+    public const LEFTWARDS_HAND_MEDIUM_DARK_SKIN_TONE = "\u{1FAF2}\u{1F3FE}"; // 🫲🏾  leftwards hand: medium-dark skin tone
+    public const LEFTWARDS_HAND_DARK_SKIN_TONE = "\u{1FAF2}\u{1F3FF}"; // 🫲🏿  leftwards hand: dark skin tone
+    public const PALM_DOWN_HAND = "\u{1FAF3}"; // 🫳  palm down hand
+    public const PALM_DOWN_HAND_LIGHT_SKIN_TONE = "\u{1FAF3}\u{1F3FB}"; // 🫳🏻  palm down hand: light skin tone
+    public const PALM_DOWN_HAND_MEDIUM_LIGHT_SKIN_TONE = "\u{1FAF3}\u{1F3FC}"; // 🫳🏼  palm down hand: medium-light skin tone
+    public const PALM_DOWN_HAND_MEDIUM_SKIN_TONE = "\u{1FAF3}\u{1F3FD}"; // 🫳🏽  palm down hand: medium skin tone
+    public const PALM_DOWN_HAND_MEDIUM_DARK_SKIN_TONE = "\u{1FAF3}\u{1F3FE}"; // 🫳🏾  palm down hand: medium-dark skin tone
+    public const PALM_DOWN_HAND_DARK_SKIN_TONE = "\u{1FAF3}\u{1F3FF}"; // 🫳🏿  palm down hand: dark skin tone
+    public const PALM_UP_HAND = "\u{1FAF4}"; // 🫴  palm up hand
+    public const PALM_UP_HAND_LIGHT_SKIN_TONE = "\u{1FAF4}\u{1F3FB}"; // 🫴🏻  palm up hand: light skin tone
+    public const PALM_UP_HAND_MEDIUM_LIGHT_SKIN_TONE = "\u{1FAF4}\u{1F3FC}"; // 🫴🏼  palm up hand: medium-light skin tone
+    public const PALM_UP_HAND_MEDIUM_SKIN_TONE = "\u{1FAF4}\u{1F3FD}"; // 🫴🏽  palm up hand: medium skin tone
+    public const PALM_UP_HAND_MEDIUM_DARK_SKIN_TONE = "\u{1FAF4}\u{1F3FE}"; // 🫴🏾  palm up hand: medium-dark skin tone
+    public const PALM_UP_HAND_DARK_SKIN_TONE = "\u{1FAF4}\u{1F3FF}"; // 🫴🏿  palm up hand: dark skin tone
     public const OK_HAND = "\u{1F44C}"; // 👌  OK hand
     public const OK_HAND_LIGHT_SKIN_TONE = "\u{1F44C}\u{1F3FB}"; // 👌🏻  OK hand: light skin tone
     public const OK_HAND_MEDIUM_LIGHT_SKIN_TONE = "\u{1F44C}\u{1F3FC}"; // 👌🏼  OK hand: medium-light skin tone
@@ -248,6 +279,12 @@ class Emoji
     public const CROSSED_FINGERS_MEDIUM_SKIN_TONE = "\u{1F91E}\u{1F3FD}"; // 🤞🏽  crossed fingers: medium skin tone
     public const CROSSED_FINGERS_MEDIUM_DARK_SKIN_TONE = "\u{1F91E}\u{1F3FE}"; // 🤞🏾  crossed fingers: medium-dark skin tone
     public const CROSSED_FINGERS_DARK_SKIN_TONE = "\u{1F91E}\u{1F3FF}"; // 🤞🏿  crossed fingers: dark skin tone
+    public const HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED = "\u{1FAF0}"; // 🫰  hand with index finger and thumb crossed
+    public const HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_LIGHT_SKIN_TONE = "\u{1FAF0}\u{1F3FB}"; // 🫰🏻  hand with index finger and thumb crossed: light skin tone
+    public const HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_MEDIUM_LIGHT_SKIN_TONE = "\u{1FAF0}\u{1F3FC}"; // 🫰🏼  hand with index finger and thumb crossed: medium-light skin tone
+    public const HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_MEDIUM_SKIN_TONE = "\u{1FAF0}\u{1F3FD}"; // 🫰🏽  hand with index finger and thumb crossed: medium skin tone
+    public const HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_MEDIUM_DARK_SKIN_TONE = "\u{1FAF0}\u{1F3FE}"; // 🫰🏾  hand with index finger and thumb crossed: medium-dark skin tone
+    public const HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_DARK_SKIN_TONE = "\u{1FAF0}\u{1F3FF}"; // 🫰🏿  hand with index finger and thumb crossed: dark skin tone
     public const LOVE_YOU_GESTURE = "\u{1F91F}"; // 🤟  love-you gesture
     public const LOVE_YOU_GESTURE_LIGHT_SKIN_TONE = "\u{1F91F}\u{1F3FB}"; // 🤟🏻  love-you gesture: light skin tone
     public const LOVE_YOU_GESTURE_MEDIUM_LIGHT_SKIN_TONE = "\u{1F91F}\u{1F3FC}"; // 🤟🏼  love-you gesture: medium-light skin tone
@@ -302,6 +339,12 @@ class Emoji
     public const INDEX_POINTING_UP_MEDIUM_SKIN_TONE = "\u{261D}\u{1F3FD}"; // ☝🏽  index pointing up: medium skin tone
     public const INDEX_POINTING_UP_MEDIUM_DARK_SKIN_TONE = "\u{261D}\u{1F3FE}"; // ☝🏾  index pointing up: medium-dark skin tone
     public const INDEX_POINTING_UP_DARK_SKIN_TONE = "\u{261D}\u{1F3FF}"; // ☝🏿  index pointing up: dark skin tone
+    public const INDEX_POINTING_AT_THE_VIEWER = "\u{1FAF5}"; // 🫵  index pointing at the viewer
+    public const INDEX_POINTING_AT_THE_VIEWER_LIGHT_SKIN_TONE = "\u{1FAF5}\u{1F3FB}"; // 🫵🏻  index pointing at the viewer: light skin tone
+    public const INDEX_POINTING_AT_THE_VIEWER_MEDIUM_LIGHT_SKIN_TONE = "\u{1FAF5}\u{1F3FC}"; // 🫵🏼  index pointing at the viewer: medium-light skin tone
+    public const INDEX_POINTING_AT_THE_VIEWER_MEDIUM_SKIN_TONE = "\u{1FAF5}\u{1F3FD}"; // 🫵🏽  index pointing at the viewer: medium skin tone
+    public const INDEX_POINTING_AT_THE_VIEWER_MEDIUM_DARK_SKIN_TONE = "\u{1FAF5}\u{1F3FE}"; // 🫵🏾  index pointing at the viewer: medium-dark skin tone
+    public const INDEX_POINTING_AT_THE_VIEWER_DARK_SKIN_TONE = "\u{1FAF5}\u{1F3FF}"; // 🫵🏿  index pointing at the viewer: dark skin tone
     public const THUMBS_UP = "\u{1F44D}"; // 👍  thumbs up
     public const THUMBS_UP_LIGHT_SKIN_TONE = "\u{1F44D}\u{1F3FB}"; // 👍🏻  thumbs up: light skin tone
     public const THUMBS_UP_MEDIUM_LIGHT_SKIN_TONE = "\u{1F44D}\u{1F3FC}"; // 👍🏼  thumbs up: medium-light skin tone
@@ -350,6 +393,12 @@ class Emoji
     public const RAISING_HANDS_MEDIUM_SKIN_TONE = "\u{1F64C}\u{1F3FD}"; // 🙌🏽  raising hands: medium skin tone
     public const RAISING_HANDS_MEDIUM_DARK_SKIN_TONE = "\u{1F64C}\u{1F3FE}"; // 🙌🏾  raising hands: medium-dark skin tone
     public const RAISING_HANDS_DARK_SKIN_TONE = "\u{1F64C}\u{1F3FF}"; // 🙌🏿  raising hands: dark skin tone
+    public const HEART_HANDS = "\u{1FAF6}"; // 🫶  heart hands
+    public const HEART_HANDS_LIGHT_SKIN_TONE = "\u{1FAF6}\u{1F3FB}"; // 🫶🏻  heart hands: light skin tone
+    public const HEART_HANDS_MEDIUM_LIGHT_SKIN_TONE = "\u{1FAF6}\u{1F3FC}"; // 🫶🏼  heart hands: medium-light skin tone
+    public const HEART_HANDS_MEDIUM_SKIN_TONE = "\u{1FAF6}\u{1F3FD}"; // 🫶🏽  heart hands: medium skin tone
+    public const HEART_HANDS_MEDIUM_DARK_SKIN_TONE = "\u{1FAF6}\u{1F3FE}"; // 🫶🏾  heart hands: medium-dark skin tone
+    public const HEART_HANDS_DARK_SKIN_TONE = "\u{1FAF6}\u{1F3FF}"; // 🫶🏿  heart hands: dark skin tone
     public const OPEN_HANDS = "\u{1F450}"; // 👐  open hands
     public const OPEN_HANDS_LIGHT_SKIN_TONE = "\u{1F450}\u{1F3FB}"; // 👐🏻  open hands: light skin tone
     public const OPEN_HANDS_MEDIUM_LIGHT_SKIN_TONE = "\u{1F450}\u{1F3FC}"; // 👐🏼  open hands: medium-light skin tone
@@ -363,6 +412,31 @@ class Emoji
     public const PALMS_UP_TOGETHER_MEDIUM_DARK_SKIN_TONE = "\u{1F932}\u{1F3FE}"; // 🤲🏾  palms up together: medium-dark skin tone
     public const PALMS_UP_TOGETHER_DARK_SKIN_TONE = "\u{1F932}\u{1F3FF}"; // 🤲🏿  palms up together: dark skin tone
     public const HANDSHAKE = "\u{1F91D}"; // 🤝  handshake
+    public const HANDSHAKE_LIGHT_SKIN_TONE = "\u{1F91D}\u{1F3FB}"; // 🤝🏻  handshake: light skin tone
+    public const HANDSHAKE_MEDIUM_LIGHT_SKIN_TONE = "\u{1F91D}\u{1F3FC}"; // 🤝🏼  handshake: medium-light skin tone
+    public const HANDSHAKE_MEDIUM_SKIN_TONE = "\u{1F91D}\u{1F3FD}"; // 🤝🏽  handshake: medium skin tone
+    public const HANDSHAKE_MEDIUM_DARK_SKIN_TONE = "\u{1F91D}\u{1F3FE}"; // 🤝🏾  handshake: medium-dark skin tone
+    public const HANDSHAKE_DARK_SKIN_TONE = "\u{1F91D}\u{1F3FF}"; // 🤝🏿  handshake: dark skin tone
+    public const HANDSHAKE_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = "\u{1FAF1}\u{1F3FB}\u{200D}\u{1FAF2}\u{1F3FC}"; // 🫱🏻‍🫲🏼  handshake: light skin tone, medium-light skin tone
+    public const HANDSHAKE_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = "\u{1FAF1}\u{1F3FB}\u{200D}\u{1FAF2}\u{1F3FD}"; // 🫱🏻‍🫲🏽  handshake: light skin tone, medium skin tone
+    public const HANDSHAKE_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = "\u{1FAF1}\u{1F3FB}\u{200D}\u{1FAF2}\u{1F3FE}"; // 🫱🏻‍🫲🏾  handshake: light skin tone, medium-dark skin tone
+    public const HANDSHAKE_LIGHT_SKIN_TONE_DARK_SKIN_TONE = "\u{1FAF1}\u{1F3FB}\u{200D}\u{1FAF2}\u{1F3FF}"; // 🫱🏻‍🫲🏿  handshake: light skin tone, dark skin tone
+    public const HANDSHAKE_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE = "\u{1FAF1}\u{1F3FC}\u{200D}\u{1FAF2}\u{1F3FB}"; // 🫱🏼‍🫲🏻  handshake: medium-light skin tone, light skin tone
+    public const HANDSHAKE_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = "\u{1FAF1}\u{1F3FC}\u{200D}\u{1FAF2}\u{1F3FD}"; // 🫱🏼‍🫲🏽  handshake: medium-light skin tone, medium skin tone
+    public const HANDSHAKE_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = "\u{1FAF1}\u{1F3FC}\u{200D}\u{1FAF2}\u{1F3FE}"; // 🫱🏼‍🫲🏾  handshake: medium-light skin tone, medium-dark skin tone
+    public const HANDSHAKE_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE = "\u{1FAF1}\u{1F3FC}\u{200D}\u{1FAF2}\u{1F3FF}"; // 🫱🏼‍🫲🏿  handshake: medium-light skin tone, dark skin tone
+    public const HANDSHAKE_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE = "\u{1FAF1}\u{1F3FD}\u{200D}\u{1FAF2}\u{1F3FB}"; // 🫱🏽‍🫲🏻  handshake: medium skin tone, light skin tone
+    public const HANDSHAKE_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = "\u{1FAF1}\u{1F3FD}\u{200D}\u{1FAF2}\u{1F3FC}"; // 🫱🏽‍🫲🏼  handshake: medium skin tone, medium-light skin tone
+    public const HANDSHAKE_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = "\u{1FAF1}\u{1F3FD}\u{200D}\u{1FAF2}\u{1F3FE}"; // 🫱🏽‍🫲🏾  handshake: medium skin tone, medium-dark skin tone
+    public const HANDSHAKE_MEDIUM_SKIN_TONE_DARK_SKIN_TONE = "\u{1FAF1}\u{1F3FD}\u{200D}\u{1FAF2}\u{1F3FF}"; // 🫱🏽‍🫲🏿  handshake: medium skin tone, dark skin tone
+    public const HANDSHAKE_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE = "\u{1FAF1}\u{1F3FE}\u{200D}\u{1FAF2}\u{1F3FB}"; // 🫱🏾‍🫲🏻  handshake: medium-dark skin tone, light skin tone
+    public const HANDSHAKE_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = "\u{1FAF1}\u{1F3FE}\u{200D}\u{1FAF2}\u{1F3FC}"; // 🫱🏾‍🫲🏼  handshake: medium-dark skin tone, medium-light skin tone
+    public const HANDSHAKE_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE = "\u{1FAF1}\u{1F3FE}\u{200D}\u{1FAF2}\u{1F3FD}"; // 🫱🏾‍🫲🏽  handshake: medium-dark skin tone, medium skin tone
+    public const HANDSHAKE_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE = "\u{1FAF1}\u{1F3FE}\u{200D}\u{1FAF2}\u{1F3FF}"; // 🫱🏾‍🫲🏿  handshake: medium-dark skin tone, dark skin tone
+    public const HANDSHAKE_DARK_SKIN_TONE_LIGHT_SKIN_TONE = "\u{1FAF1}\u{1F3FF}\u{200D}\u{1FAF2}\u{1F3FB}"; // 🫱🏿‍🫲🏻  handshake: dark skin tone, light skin tone
+    public const HANDSHAKE_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = "\u{1FAF1}\u{1F3FF}\u{200D}\u{1FAF2}\u{1F3FC}"; // 🫱🏿‍🫲🏼  handshake: dark skin tone, medium-light skin tone
+    public const HANDSHAKE_DARK_SKIN_TONE_MEDIUM_SKIN_TONE = "\u{1FAF1}\u{1F3FF}\u{200D}\u{1FAF2}\u{1F3FD}"; // 🫱🏿‍🫲🏽  handshake: dark skin tone, medium skin tone
+    public const HANDSHAKE_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = "\u{1FAF1}\u{1F3FF}\u{200D}\u{1FAF2}\u{1F3FE}"; // 🫱🏿‍🫲🏾  handshake: dark skin tone, medium-dark skin tone
     public const FOLDED_HANDS = "\u{1F64F}"; // 🙏  folded hands
     public const FOLDED_HANDS_LIGHT_SKIN_TONE = "\u{1F64F}\u{1F3FB}"; // 🙏🏻  folded hands: light skin tone
     public const FOLDED_HANDS_MEDIUM_LIGHT_SKIN_TONE = "\u{1F64F}\u{1F3FC}"; // 🙏🏼  folded hands: medium-light skin tone
@@ -434,6 +508,7 @@ class Emoji
     public const EYE = "\u{1F441}\u{FE0F}"; // 👁️  eye
     public const TONGUE = "\u{1F445}"; // 👅  tongue
     public const MOUTH = "\u{1F444}"; // 👄  mouth
+    public const BITING_LIP = "\u{1FAE6}"; // 🫦  biting lip
     public const BABY = "\u{1F476}"; // 👶  baby
     public const BABY_LIGHT_SKIN_TONE = "\u{1F476}\u{1F3FB}"; // 👶🏻  baby: light skin tone
     public const BABY_MEDIUM_LIGHT_SKIN_TONE = "\u{1F476}\u{1F3FC}"; // 👶🏼  baby: medium-light skin tone
@@ -1148,6 +1223,12 @@ class Emoji
     public const WOMAN_CONSTRUCTION_WORKER_MEDIUM_SKIN_TONE = "\u{1F477}\u{1F3FD}\u{200D}\u{2640}\u{FE0F}"; // 👷🏽‍♀️  woman construction worker: medium skin tone
     public const WOMAN_CONSTRUCTION_WORKER_MEDIUM_DARK_SKIN_TONE = "\u{1F477}\u{1F3FE}\u{200D}\u{2640}\u{FE0F}"; // 👷🏾‍♀️  woman construction worker: medium-dark skin tone
     public const WOMAN_CONSTRUCTION_WORKER_DARK_SKIN_TONE = "\u{1F477}\u{1F3FF}\u{200D}\u{2640}\u{FE0F}"; // 👷🏿‍♀️  woman construction worker: dark skin tone
+    public const PERSON_WITH_CROWN = "\u{1FAC5}"; // 🫅  person with crown
+    public const PERSON_WITH_CROWN_LIGHT_SKIN_TONE = "\u{1FAC5}\u{1F3FB}"; // 🫅🏻  person with crown: light skin tone
+    public const PERSON_WITH_CROWN_MEDIUM_LIGHT_SKIN_TONE = "\u{1FAC5}\u{1F3FC}"; // 🫅🏼  person with crown: medium-light skin tone
+    public const PERSON_WITH_CROWN_MEDIUM_SKIN_TONE = "\u{1FAC5}\u{1F3FD}"; // 🫅🏽  person with crown: medium skin tone
+    public const PERSON_WITH_CROWN_MEDIUM_DARK_SKIN_TONE = "\u{1FAC5}\u{1F3FE}"; // 🫅🏾  person with crown: medium-dark skin tone
+    public const PERSON_WITH_CROWN_DARK_SKIN_TONE = "\u{1FAC5}\u{1F3FF}"; // 🫅🏿  person with crown: dark skin tone
     public const PRINCE = "\u{1F934}"; // 🤴  prince
     public const PRINCE_LIGHT_SKIN_TONE = "\u{1F934}\u{1F3FB}"; // 🤴🏻  prince: light skin tone
     public const PRINCE_MEDIUM_LIGHT_SKIN_TONE = "\u{1F934}\u{1F3FC}"; // 🤴🏼  prince: medium-light skin tone
@@ -1232,6 +1313,18 @@ class Emoji
     public const PREGNANT_WOMAN_MEDIUM_SKIN_TONE = "\u{1F930}\u{1F3FD}"; // 🤰🏽  pregnant woman: medium skin tone
     public const PREGNANT_WOMAN_MEDIUM_DARK_SKIN_TONE = "\u{1F930}\u{1F3FE}"; // 🤰🏾  pregnant woman: medium-dark skin tone
     public const PREGNANT_WOMAN_DARK_SKIN_TONE = "\u{1F930}\u{1F3FF}"; // 🤰🏿  pregnant woman: dark skin tone
+    public const PREGNANT_MAN = "\u{1FAC3}"; // 🫃  pregnant man
+    public const PREGNANT_MAN_LIGHT_SKIN_TONE = "\u{1FAC3}\u{1F3FB}"; // 🫃🏻  pregnant man: light skin tone
+    public const PREGNANT_MAN_MEDIUM_LIGHT_SKIN_TONE = "\u{1FAC3}\u{1F3FC}"; // 🫃🏼  pregnant man: medium-light skin tone
+    public const PREGNANT_MAN_MEDIUM_SKIN_TONE = "\u{1FAC3}\u{1F3FD}"; // 🫃🏽  pregnant man: medium skin tone
+    public const PREGNANT_MAN_MEDIUM_DARK_SKIN_TONE = "\u{1FAC3}\u{1F3FE}"; // 🫃🏾  pregnant man: medium-dark skin tone
+    public const PREGNANT_MAN_DARK_SKIN_TONE = "\u{1FAC3}\u{1F3FF}"; // 🫃🏿  pregnant man: dark skin tone
+    public const PREGNANT_PERSON = "\u{1FAC4}"; // 🫄  pregnant person
+    public const PREGNANT_PERSON_LIGHT_SKIN_TONE = "\u{1FAC4}\u{1F3FB}"; // 🫄🏻  pregnant person: light skin tone
+    public const PREGNANT_PERSON_MEDIUM_LIGHT_SKIN_TONE = "\u{1FAC4}\u{1F3FC}"; // 🫄🏼  pregnant person: medium-light skin tone
+    public const PREGNANT_PERSON_MEDIUM_SKIN_TONE = "\u{1FAC4}\u{1F3FD}"; // 🫄🏽  pregnant person: medium skin tone
+    public const PREGNANT_PERSON_MEDIUM_DARK_SKIN_TONE = "\u{1FAC4}\u{1F3FE}"; // 🫄🏾  pregnant person: medium-dark skin tone
+    public const PREGNANT_PERSON_DARK_SKIN_TONE = "\u{1FAC4}\u{1F3FF}"; // 🫄🏿  pregnant person: dark skin tone
     public const BREAST_FEEDING = "\u{1F931}"; // 🤱  breast-feeding
     public const BREAST_FEEDING_LIGHT_SKIN_TONE = "\u{1F931}\u{1F3FB}"; // 🤱🏻  breast-feeding: light skin tone
     public const BREAST_FEEDING_MEDIUM_LIGHT_SKIN_TONE = "\u{1F931}\u{1F3FC}"; // 🤱🏼  breast-feeding: medium-light skin tone
@@ -1412,6 +1505,7 @@ class Emoji
     public const ZOMBIE = "\u{1F9DF}"; // 🧟  zombie
     public const MAN_ZOMBIE = "\u{1F9DF}\u{200D}\u{2642}\u{FE0F}"; // 🧟‍♂️  man zombie
     public const WOMAN_ZOMBIE = "\u{1F9DF}\u{200D}\u{2640}\u{FE0F}"; // 🧟‍♀️  woman zombie
+    public const TROLL = "\u{1F9CC}"; // 🧌  troll
     public const PERSON_GETTING_MASSAGE = "\u{1F486}"; // 💆  person getting massage
     public const PERSON_GETTING_MASSAGE_LIGHT_SKIN_TONE = "\u{1F486}\u{1F3FB}"; // 💆🏻  person getting massage: light skin tone
     public const PERSON_GETTING_MASSAGE_MEDIUM_LIGHT_SKIN_TONE = "\u{1F486}\u{1F3FC}"; // 💆🏼  person getting massage: medium-light skin tone
@@ -2338,6 +2432,7 @@ class Emoji
     public const SHARK = "\u{1F988}"; // 🦈  shark
     public const OCTOPUS = "\u{1F419}"; // 🐙  octopus
     public const SPIRAL_SHELL = "\u{1F41A}"; // 🐚  spiral shell
+    public const CORAL = "\u{1FAB8}"; // 🪸  coral
     public const SNAIL = "\u{1F40C}"; // 🐌  snail
     public const BUTTERFLY = "\u{1F98B}"; // 🦋  butterfly
     public const BUG = "\u{1F41B}"; // 🐛  bug
@@ -2357,6 +2452,7 @@ class Emoji
     public const BOUQUET = "\u{1F490}"; // 💐  bouquet
     public const CHERRY_BLOSSOM = "\u{1F338}"; // 🌸  cherry blossom
     public const WHITE_FLOWER = "\u{1F4AE}"; // 💮  white flower
+    public const LOTUS = "\u{1FAB7}"; // 🪷  lotus
     public const ROSETTE = "\u{1F3F5}\u{FE0F}"; // 🏵️  rosette
     public const ROSE = "\u{1F339}"; // 🌹  rose
     public const WILTED_FLOWER = "\u{1F940}"; // 🥀  wilted flower
@@ -2377,6 +2473,8 @@ class Emoji
     public const MAPLE_LEAF = "\u{1F341}"; // 🍁  maple leaf
     public const FALLEN_LEAF = "\u{1F342}"; // 🍂  fallen leaf
     public const LEAF_FLUTTERING_IN_WIND = "\u{1F343}"; // 🍃  leaf fluttering in wind
+    public const EMPTY_NEST = "\u{1FAB9}"; // 🪹  empty nest
+    public const NEST_WITH_EGGS = "\u{1FABA}"; // 🪺  nest with eggs
     public const GRAPES = "\u{1F347}"; // 🍇  grapes
     public const MELON = "\u{1F348}"; // 🍈  melon
     public const WATERMELON = "\u{1F349}"; // 🍉  watermelon
@@ -2410,6 +2508,7 @@ class Emoji
     public const ONION = "\u{1F9C5}"; // 🧅  onion
     public const MUSHROOM = "\u{1F344}"; // 🍄  mushroom
     public const PEANUTS = "\u{1F95C}"; // 🥜  peanuts
+    public const BEANS = "\u{1FAD8}"; // 🫘  beans
     public const CHESTNUT = "\u{1F330}"; // 🌰  chestnut
     public const BREAD = "\u{1F35E}"; // 🍞  bread
     public const CROISSANT = "\u{1F950}"; // 🥐  croissant
@@ -2495,6 +2594,7 @@ class Emoji
     public const CLINKING_BEER_MUGS = "\u{1F37B}"; // 🍻  clinking beer mugs
     public const CLINKING_GLASSES = "\u{1F942}"; // 🥂  clinking glasses
     public const TUMBLER_GLASS = "\u{1F943}"; // 🥃  tumbler glass
+    public const POURING_LIQUID = "\u{1FAD7}"; // 🫗  pouring liquid
     public const CUP_WITH_STRAW = "\u{1F964}"; // 🥤  cup with straw
     public const BUBBLE_TEA = "\u{1F9CB}"; // 🧋  bubble tea
     public const BEVERAGE_BOX = "\u{1F9C3}"; // 🧃  beverage box
@@ -2505,6 +2605,7 @@ class Emoji
     public const FORK_AND_KNIFE = "\u{1F374}"; // 🍴  fork and knife
     public const SPOON = "\u{1F944}"; // 🥄  spoon
     public const KITCHEN_KNIFE = "\u{1F52A}"; // 🔪  kitchen knife
+    public const JAR = "\u{1FAD9}"; // 🫙  jar
     public const AMPHORA = "\u{1F3FA}"; // 🏺  amphora
     public const GLOBE_SHOWING_EUROPE_AFRICA = "\u{1F30D}"; // 🌍  globe showing Europe-Africa
     public const GLOBE_SHOWING_AMERICAS = "\u{1F30E}"; // 🌎  globe showing Americas
@@ -2567,6 +2668,7 @@ class Emoji
     public const BRIDGE_AT_NIGHT = "\u{1F309}"; // 🌉  bridge at night
     public const HOT_SPRINGS = "\u{2668}\u{FE0F}"; // ♨️  hot springs
     public const CAROUSEL_HORSE = "\u{1F3A0}"; // 🎠  carousel horse
+    public const PLAYGROUND_SLIDE = "\u{1F6DD}"; // 🛝  playground slide
     public const FERRIS_WHEEL = "\u{1F3A1}"; // 🎡  ferris wheel
     public const ROLLER_COASTER = "\u{1F3A2}"; // 🎢  roller coaster
     public const BARBER_POLE = "\u{1F488}"; // 💈  barber pole
@@ -2615,12 +2717,14 @@ class Emoji
     public const RAILWAY_TRACK = "\u{1F6E4}\u{FE0F}"; // 🛤️  railway track
     public const OIL_DRUM = "\u{1F6E2}\u{FE0F}"; // 🛢️  oil drum
     public const FUEL_PUMP = "\u{26FD}"; // ⛽  fuel pump
+    public const WHEEL = "\u{1F6DE}"; // 🛞  wheel
     public const POLICE_CAR_LIGHT = "\u{1F6A8}"; // 🚨  police car light
     public const HORIZONTAL_TRAFFIC_LIGHT = "\u{1F6A5}"; // 🚥  horizontal traffic light
     public const VERTICAL_TRAFFIC_LIGHT = "\u{1F6A6}"; // 🚦  vertical traffic light
     public const STOP_SIGN = "\u{1F6D1}"; // 🛑  stop sign
     public const CONSTRUCTION = "\u{1F6A7}"; // 🚧  construction
     public const ANCHOR = "\u{2693}"; // ⚓  anchor
+    public const RING_BUOY = "\u{1F6DF}"; // 🛟  ring buoy
     public const SAILBOAT = "\u{26F5}"; // ⛵  sailboat
     public const CANOE = "\u{1F6F6}"; // 🛶  canoe
     public const SPEEDBOAT = "\u{1F6A4}"; // 🚤  speedboat
@@ -2782,6 +2886,7 @@ class Emoji
     public const CRYSTAL_BALL = "\u{1F52E}"; // 🔮  crystal ball
     public const MAGIC_WAND = "\u{1FA84}"; // 🪄  magic wand
     public const NAZAR_AMULET = "\u{1F9FF}"; // 🧿  nazar amulet
+    public const HAMSA = "\u{1FAAC}"; // 🪬  hamsa
     public const VIDEO_GAME = "\u{1F3AE}"; // 🎮  video game
     public const JOYSTICK = "\u{1F579}\u{FE0F}"; // 🕹️  joystick
     public const SLOT_MACHINE = "\u{1F3B0}"; // 🎰  slot machine
@@ -2789,6 +2894,7 @@ class Emoji
     public const PUZZLE_PIECE = "\u{1F9E9}"; // 🧩  puzzle piece
     public const TEDDY_BEAR = "\u{1F9F8}"; // 🧸  teddy bear
     public const PINATA = "\u{1FA85}"; // 🪅  piñata
+    public const MIRROR_BALL = "\u{1FAA9}"; // 🪩  mirror ball
     public const NESTING_DOLLS = "\u{1FA86}"; // 🪆  nesting dolls
     public const SPADE_SUIT = "\u{2660}\u{FE0F}"; // ♠️  spade suit
     public const HEART_SUIT = "\u{2665}\u{FE0F}"; // ♥️  heart suit
@@ -2884,6 +2990,7 @@ class Emoji
     public const PAGER = "\u{1F4DF}"; // 📟  pager
     public const FAX_MACHINE = "\u{1F4E0}"; // 📠  fax machine
     public const BATTERY = "\u{1F50B}"; // 🔋  battery
+    public const LOW_BATTERY = "\u{1FAAB}"; // 🪫  low battery
     public const ELECTRIC_PLUG = "\u{1F50C}"; // 🔌  electric plug
     public const LAPTOP = "\u{1F4BB}"; // 💻  laptop
     public const DESKTOP_COMPUTER = "\u{1F5A5}\u{FE0F}"; // 🖥️  desktop computer
@@ -3024,7 +3131,9 @@ class Emoji
     public const DROP_OF_BLOOD = "\u{1FA78}"; // 🩸  drop of blood
     public const PILL = "\u{1F48A}"; // 💊  pill
     public const ADHESIVE_BANDAGE = "\u{1FA79}"; // 🩹  adhesive bandage
+    public const CRUTCH = "\u{1FA7C}"; // 🩼  crutch
     public const STETHOSCOPE = "\u{1FA7A}"; // 🩺  stethoscope
+    public const X_RAY = "\u{1FA7B}"; // 🩻  x-ray
     public const DOOR = "\u{1F6AA}"; // 🚪  door
     public const ELEVATOR = "\u{1F6D7}"; // 🛗  elevator
     public const MIRROR = "\u{1FA9E}"; // 🪞  mirror
@@ -3045,6 +3154,7 @@ class Emoji
     public const ROLL_OF_PAPER = "\u{1F9FB}"; // 🧻  roll of paper
     public const BUCKET = "\u{1FAA3}"; // 🪣  bucket
     public const SOAP = "\u{1F9FC}"; // 🧼  soap
+    public const BUBBLES = "\u{1FAE7}"; // 🫧  bubbles
     public const TOOTHBRUSH = "\u{1FAA5}"; // 🪥  toothbrush
     public const SPONGE = "\u{1F9FD}"; // 🧽  sponge
     public const FIRE_EXTINGUISHER = "\u{1F9EF}"; // 🧯  fire extinguisher
@@ -3055,6 +3165,7 @@ class Emoji
     public const FUNERAL_URN = "\u{26B1}\u{FE0F}"; // ⚱️  funeral urn
     public const MOAI = "\u{1F5FF}"; // 🗿  moai
     public const PLACARD = "\u{1FAA7}"; // 🪧  placard
+    public const IDENTIFICATION_CARD = "\u{1FAAA}"; // 🪪  identification card
     public const ATM_SIGN = "\u{1F3E7}"; // 🏧  ATM sign
     public const LITTER_IN_BIN_SIGN = "\u{1F6AE}"; // 🚮  litter in bin sign
     public const POTABLE_WATER = "\u{1F6B0}"; // 🚰  potable water
@@ -3158,6 +3269,7 @@ class Emoji
     public const PLUS = "\u{2795}"; // ➕  plus
     public const MINUS = "\u{2796}"; // ➖  minus
     public const DIVIDE = "\u{2797}"; // ➗  divide
+    public const HEAVY_EQUALS_SIGN = "\u{1F7F0}"; // 🟰  heavy equals sign
     public const INFINITY = "\u{267E}\u{FE0F}"; // ♾️  infinity
     public const DOUBLE_EXCLAMATION_MARK = "\u{203C}\u{FE0F}"; // ‼️  double exclamation mark
     public const EXCLAMATION_QUESTION_MARK = "\u{2049}\u{FE0F}"; // ⁉️  exclamation question mark
@@ -3544,4 +3656,11 @@ class Emoji
     public const FLAG_ENGLAND = "\u{1F3F4}\u{E0067}\u{E0062}\u{E0065}\u{E006E}\u{E0067}\u{E007F}"; // 🏴󠁧󠁢󠁥󠁮󠁧󠁿  flag: England
     public const FLAG_SCOTLAND = "\u{1F3F4}\u{E0067}\u{E0062}\u{E0073}\u{E0063}\u{E0074}\u{E007F}"; // 🏴󠁧󠁢󠁳󠁣󠁴󠁿  flag: Scotland
     public const FLAG_WALES = "\u{1F3F4}\u{E0067}\u{E0062}\u{E0077}\u{E006C}\u{E0073}\u{E007F}"; // 🏴󠁧󠁢󠁷󠁬󠁳󠁿  flag: Wales
+
+    // The following mappings are provided for backwards compatibility only
+
+    /** @deprecated */
+    public const KNOCKED_OUT_FACE = self::FACE_WITH_CROSSED_OUT_EYES;
+    /** @deprecated */
+    public const HUGGING_FACE = self::SMILING_FACE_WITH_OPEN_HANDS;
 }

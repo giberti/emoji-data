@@ -14,5 +14,6 @@ class EmojiTest extends TestCase
         $this->assertEquals('🥑', Emoji::AVOCADO, 'Avocado');
         $this->assertEquals('🏴‍☠️', Emoji::PIRATE_FLAG, 'pirate flag');
         $this->assertEquals('🇨🇼', Emoji::FLAG_CURACAO, 'flag: Curaçao');
+        $this->assertEquals('🤗', Emoji::HUGGING_FACE, 'deprecated hugging face');
     }
 }
