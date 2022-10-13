@@ -31,6 +31,7 @@ class MappingsTest extends TestCase
             'piñata' => ['piñata', Emoji::PINATA],
             'flag: St. Kitts & Nevis' => ['flag: St. Kitts & Nevis', Emoji::FLAG_ST_KITTS_AND_NEVIS],
             'deprecated: hugging face' => ['hugging face', Emoji::SMILING_FACE_WITH_OPEN_HANDS],
+            'deprecated: pouting_face' => ['pouting face', Emoji::ENRAGED_FACE],
         ];
     }
 
@@ -58,6 +59,7 @@ class MappingsTest extends TestCase
             'piñata' => [':pinata:', Emoji::PINATA],
             'flag: St. Kitts & Nevis' => [':flag_st_kitts_and_nevis:', Emoji::FLAG_ST_KITTS_AND_NEVIS],
             'deprecated: hugging face' => [':hugging_face:', Emoji::SMILING_FACE_WITH_OPEN_HANDS],
+            'deprecated: pouting face' => [':pouting_face:', Emoji::ENRAGED_FACE],
         ];
     }
 

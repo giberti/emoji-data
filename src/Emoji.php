@@ -24,10 +24,10 @@ namespace Giberti\EmojiData;
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This file was automatically generated on 2022-02-13 using data files
+ * This file was automatically generated on 2022-10-13 using data files
  * provided by Unicode Inc.
  *
- * @link http://unicode.org/Public/emoji/14.0/emoji-test.txt Emoji Keyboard/Display Test Data
+ * @link https://unicode.org/Public/emoji/15.0/emoji-test.txt Emoji Keyboard/Display Test Data
  * @link https://www.unicode.org/license.html Unicode Data File license
  */
 class Emoji
@@ -81,6 +81,7 @@ class Emoji
     public const GRIMACING_FACE = "\u{1F62C}"; // 😬  grimacing face
     public const FACE_EXHALING = "\u{1F62E}\u{200D}\u{1F4A8}"; // 😮‍💨  face exhaling
     public const LYING_FACE = "\u{1F925}"; // 🤥  lying face
+    public const SHAKING_FACE = "\u{1FAE8}"; // 🫨  shaking face
     public const RELIEVED_FACE = "\u{1F60C}"; // 😌  relieved face
     public const PENSIVE_FACE = "\u{1F614}"; // 😔  pensive face
     public const SLEEPY_FACE = "\u{1F62A}"; // 😪  sleepy face
@@ -131,7 +132,7 @@ class Emoji
     public const TIRED_FACE = "\u{1F62B}"; // 😫  tired face
     public const YAWNING_FACE = "\u{1F971}"; // 🥱  yawning face
     public const FACE_WITH_STEAM_FROM_NOSE = "\u{1F624}"; // 😤  face with steam from nose
-    public const POUTING_FACE = "\u{1F621}"; // 😡  pouting face
+    public const ENRAGED_FACE = "\u{1F621}"; // 😡  enraged face
     public const ANGRY_FACE = "\u{1F620}"; // 😠  angry face
     public const FACE_WITH_SYMBOLS_ON_MOUTH = "\u{1F92C}"; // 🤬  face with symbols on mouth
     public const SMILING_FACE_WITH_HORNS = "\u{1F608}"; // 😈  smiling face with horns
@@ -158,7 +159,6 @@ class Emoji
     public const SEE_NO_EVIL_MONKEY = "\u{1F648}"; // 🙈  see-no-evil monkey
     public const HEAR_NO_EVIL_MONKEY = "\u{1F649}"; // 🙉  hear-no-evil monkey
     public const SPEAK_NO_EVIL_MONKEY = "\u{1F64A}"; // 🙊  speak-no-evil monkey
-    public const KISS_MARK = "\u{1F48B}"; // 💋  kiss mark
     public const LOVE_LETTER = "\u{1F48C}"; // 💌  love letter
     public const HEART_WITH_ARROW = "\u{1F498}"; // 💘  heart with arrow
     public const HEART_WITH_RIBBON = "\u{1F49D}"; // 💝  heart with ribbon
@@ -173,14 +173,18 @@ class Emoji
     public const HEART_ON_FIRE = "\u{2764}\u{FE0F}\u{200D}\u{1F525}"; // ❤️‍🔥  heart on fire
     public const MENDING_HEART = "\u{2764}\u{FE0F}\u{200D}\u{1FA79}"; // ❤️‍🩹  mending heart
     public const RED_HEART = "\u{2764}\u{FE0F}"; // ❤️  red heart
+    public const PINK_HEART = "\u{1FA77}"; // 🩷  pink heart
     public const ORANGE_HEART = "\u{1F9E1}"; // 🧡  orange heart
     public const YELLOW_HEART = "\u{1F49B}"; // 💛  yellow heart
     public const GREEN_HEART = "\u{1F49A}"; // 💚  green heart
     public const BLUE_HEART = "\u{1F499}"; // 💙  blue heart
+    public const LIGHT_BLUE_HEART = "\u{1FA75}"; // 🩵  light blue heart
     public const PURPLE_HEART = "\u{1F49C}"; // 💜  purple heart
     public const BROWN_HEART = "\u{1F90E}"; // 🤎  brown heart
     public const BLACK_HEART = "\u{1F5A4}"; // 🖤  black heart
+    public const GREY_HEART = "\u{1FA76}"; // 🩶  grey heart
     public const WHITE_HEART = "\u{1F90D}"; // 🤍  white heart
+    public const KISS_MARK = "\u{1F48B}"; // 💋  kiss mark
     public const HUNDRED_POINTS = "\u{1F4AF}"; // 💯  hundred points
     public const ANGER_SYMBOL = "\u{1F4A2}"; // 💢  anger symbol
     public const COLLISION = "\u{1F4A5}"; // 💥  collision
@@ -188,13 +192,12 @@ class Emoji
     public const SWEAT_DROPLETS = "\u{1F4A6}"; // 💦  sweat droplets
     public const DASHING_AWAY = "\u{1F4A8}"; // 💨  dashing away
     public const HOLE = "\u{1F573}\u{FE0F}"; // 🕳️  hole
-    public const BOMB = "\u{1F4A3}"; // 💣  bomb
     public const SPEECH_BALLOON = "\u{1F4AC}"; // 💬  speech balloon
     public const EYE_IN_SPEECH_BUBBLE = "\u{1F441}\u{FE0F}\u{200D}\u{1F5E8}\u{FE0F}"; // 👁️‍🗨️  eye in speech bubble
     public const LEFT_SPEECH_BUBBLE = "\u{1F5E8}\u{FE0F}"; // 🗨️  left speech bubble
     public const RIGHT_ANGER_BUBBLE = "\u{1F5EF}\u{FE0F}"; // 🗯️  right anger bubble
     public const THOUGHT_BALLOON = "\u{1F4AD}"; // 💭  thought balloon
-    public const ZZZ = "\u{1F4A4}"; // 💤  zzz
+    public const ZZZ = "\u{1F4A4}"; // 💤  ZZZ
     public const WAVING_HAND = "\u{1F44B}"; // 👋  waving hand
     public const WAVING_HAND_LIGHT_SKIN_TONE = "\u{1F44B}\u{1F3FB}"; // 👋🏻  waving hand: light skin tone
     public const WAVING_HAND_MEDIUM_LIGHT_SKIN_TONE = "\u{1F44B}\u{1F3FC}"; // 👋🏼  waving hand: medium-light skin tone
@@ -249,6 +252,18 @@ class Emoji
     public const PALM_UP_HAND_MEDIUM_SKIN_TONE = "\u{1FAF4}\u{1F3FD}"; // 🫴🏽  palm up hand: medium skin tone
     public const PALM_UP_HAND_MEDIUM_DARK_SKIN_TONE = "\u{1FAF4}\u{1F3FE}"; // 🫴🏾  palm up hand: medium-dark skin tone
     public const PALM_UP_HAND_DARK_SKIN_TONE = "\u{1FAF4}\u{1F3FF}"; // 🫴🏿  palm up hand: dark skin tone
+    public const LEFTWARDS_PUSHING_HAND = "\u{1FAF7}"; // 🫷  leftwards pushing hand
+    public const LEFTWARDS_PUSHING_HAND_LIGHT_SKIN_TONE = "\u{1FAF7}\u{1F3FB}"; // 🫷🏻  leftwards pushing hand: light skin tone
+    public const LEFTWARDS_PUSHING_HAND_MEDIUM_LIGHT_SKIN_TONE = "\u{1FAF7}\u{1F3FC}"; // 🫷🏼  leftwards pushing hand: medium-light skin tone
+    public const LEFTWARDS_PUSHING_HAND_MEDIUM_SKIN_TONE = "\u{1FAF7}\u{1F3FD}"; // 🫷🏽  leftwards pushing hand: medium skin tone
+    public const LEFTWARDS_PUSHING_HAND_MEDIUM_DARK_SKIN_TONE = "\u{1FAF7}\u{1F3FE}"; // 🫷🏾  leftwards pushing hand: medium-dark skin tone
+    public const LEFTWARDS_PUSHING_HAND_DARK_SKIN_TONE = "\u{1FAF7}\u{1F3FF}"; // 🫷🏿  leftwards pushing hand: dark skin tone
+    public const RIGHTWARDS_PUSHING_HAND = "\u{1FAF8}"; // 🫸  rightwards pushing hand
+    public const RIGHTWARDS_PUSHING_HAND_LIGHT_SKIN_TONE = "\u{1FAF8}\u{1F3FB}"; // 🫸🏻  rightwards pushing hand: light skin tone
+    public const RIGHTWARDS_PUSHING_HAND_MEDIUM_LIGHT_SKIN_TONE = "\u{1FAF8}\u{1F3FC}"; // 🫸🏼  rightwards pushing hand: medium-light skin tone
+    public const RIGHTWARDS_PUSHING_HAND_MEDIUM_SKIN_TONE = "\u{1FAF8}\u{1F3FD}"; // 🫸🏽  rightwards pushing hand: medium skin tone
+    public const RIGHTWARDS_PUSHING_HAND_MEDIUM_DARK_SKIN_TONE = "\u{1FAF8}\u{1F3FE}"; // 🫸🏾  rightwards pushing hand: medium-dark skin tone
+    public const RIGHTWARDS_PUSHING_HAND_DARK_SKIN_TONE = "\u{1FAF8}\u{1F3FF}"; // 🫸🏿  rightwards pushing hand: dark skin tone
     public const OK_HAND = "\u{1F44C}"; // 👌  OK hand
     public const OK_HAND_LIGHT_SKIN_TONE = "\u{1F44C}\u{1F3FB}"; // 👌🏻  OK hand: light skin tone
     public const OK_HAND_MEDIUM_LIGHT_SKIN_TONE = "\u{1F44C}\u{1F3FC}"; // 👌🏼  OK hand: medium-light skin tone
@@ -2351,6 +2366,8 @@ class Emoji
     public const TIGER = "\u{1F405}"; // 🐅  tiger
     public const LEOPARD = "\u{1F406}"; // 🐆  leopard
     public const HORSE_FACE = "\u{1F434}"; // 🐴  horse face
+    public const MOOSE = "\u{1FACE}"; // 🫎  moose
+    public const DONKEY = "\u{1FACF}"; // 🫏  donkey
     public const HORSE = "\u{1F40E}"; // 🐎  horse
     public const UNICORN = "\u{1F984}"; // 🦄  unicorn
     public const ZEBRA = "\u{1F993}"; // 🦓  zebra
@@ -2413,6 +2430,9 @@ class Emoji
     public const FLAMINGO = "\u{1F9A9}"; // 🦩  flamingo
     public const PEACOCK = "\u{1F99A}"; // 🦚  peacock
     public const PARROT = "\u{1F99C}"; // 🦜  parrot
+    public const WING = "\u{1FABD}"; // 🪽  wing
+    public const BLACK_BIRD = "\u{1F426}\u{200D}\u{2B1B}"; // 🐦‍⬛  black bird
+    public const GOOSE = "\u{1FABF}"; // 🪿  goose
     public const FROG = "\u{1F438}"; // 🐸  frog
     public const CROCODILE = "\u{1F40A}"; // 🐊  crocodile
     public const TURTLE = "\u{1F422}"; // 🐢  turtle
@@ -2433,6 +2453,7 @@ class Emoji
     public const OCTOPUS = "\u{1F419}"; // 🐙  octopus
     public const SPIRAL_SHELL = "\u{1F41A}"; // 🐚  spiral shell
     public const CORAL = "\u{1FAB8}"; // 🪸  coral
+    public const JELLYFISH = "\u{1FABC}"; // 🪼  jellyfish
     public const SNAIL = "\u{1F40C}"; // 🐌  snail
     public const BUTTERFLY = "\u{1F98B}"; // 🦋  butterfly
     public const BUG = "\u{1F41B}"; // 🐛  bug
@@ -2460,6 +2481,7 @@ class Emoji
     public const SUNFLOWER = "\u{1F33B}"; // 🌻  sunflower
     public const BLOSSOM = "\u{1F33C}"; // 🌼  blossom
     public const TULIP = "\u{1F337}"; // 🌷  tulip
+    public const HYACINTH = "\u{1FABB}"; // 🪻  hyacinth
     public const SEEDLING = "\u{1F331}"; // 🌱  seedling
     public const POTTED_PLANT = "\u{1FAB4}"; // 🪴  potted plant
     public const EVERGREEN_TREE = "\u{1F332}"; // 🌲  evergreen tree
@@ -2475,6 +2497,7 @@ class Emoji
     public const LEAF_FLUTTERING_IN_WIND = "\u{1F343}"; // 🍃  leaf fluttering in wind
     public const EMPTY_NEST = "\u{1FAB9}"; // 🪹  empty nest
     public const NEST_WITH_EGGS = "\u{1FABA}"; // 🪺  nest with eggs
+    public const MUSHROOM = "\u{1F344}"; // 🍄  mushroom
     public const GRAPES = "\u{1F347}"; // 🍇  grapes
     public const MELON = "\u{1F348}"; // 🍈  melon
     public const WATERMELON = "\u{1F349}"; // 🍉  watermelon
@@ -2506,10 +2529,11 @@ class Emoji
     public const BROCCOLI = "\u{1F966}"; // 🥦  broccoli
     public const GARLIC = "\u{1F9C4}"; // 🧄  garlic
     public const ONION = "\u{1F9C5}"; // 🧅  onion
-    public const MUSHROOM = "\u{1F344}"; // 🍄  mushroom
     public const PEANUTS = "\u{1F95C}"; // 🥜  peanuts
     public const BEANS = "\u{1FAD8}"; // 🫘  beans
     public const CHESTNUT = "\u{1F330}"; // 🌰  chestnut
+    public const GINGER_ROOT = "\u{1FADA}"; // 🫚  ginger root
+    public const PEA_POD = "\u{1FADB}"; // 🫛  pea pod
     public const BREAD = "\u{1F35E}"; // 🍞  bread
     public const CROISSANT = "\u{1F950}"; // 🥐  croissant
     public const BAGUETTE_BREAD = "\u{1F956}"; // 🥖  baguette bread
@@ -2882,11 +2906,10 @@ class Emoji
     public const BULLSEYE = "\u{1F3AF}"; // 🎯  bullseye
     public const YO_YO = "\u{1FA80}"; // 🪀  yo-yo
     public const KITE = "\u{1FA81}"; // 🪁  kite
+    public const WATER_PISTOL = "\u{1F52B}"; // 🔫  water pistol
     public const POOL_8_BALL = "\u{1F3B1}"; // 🎱  pool 8 ball
     public const CRYSTAL_BALL = "\u{1F52E}"; // 🔮  crystal ball
     public const MAGIC_WAND = "\u{1FA84}"; // 🪄  magic wand
-    public const NAZAR_AMULET = "\u{1F9FF}"; // 🧿  nazar amulet
-    public const HAMSA = "\u{1FAAC}"; // 🪬  hamsa
     public const VIDEO_GAME = "\u{1F3AE}"; // 🎮  video game
     public const JOYSTICK = "\u{1F579}\u{FE0F}"; // 🕹️  joystick
     public const SLOT_MACHINE = "\u{1F3B0}"; // 🎰  slot machine
@@ -2931,6 +2954,7 @@ class Emoji
     public const SHORTS = "\u{1FA73}"; // 🩳  shorts
     public const BIKINI = "\u{1F459}"; // 👙  bikini
     public const WOMANS_CLOTHES = "\u{1F45A}"; // 👚  woman’s clothes
+    public const FOLDING_HAND_FAN = "\u{1FAAD}"; // 🪭  folding hand fan
     public const PURSE = "\u{1F45B}"; // 👛  purse
     public const HANDBAG = "\u{1F45C}"; // 👜  handbag
     public const CLUTCH_BAG = "\u{1F45D}"; // 👝  clutch bag
@@ -2945,6 +2969,7 @@ class Emoji
     public const WOMANS_SANDAL = "\u{1F461}"; // 👡  woman’s sandal
     public const BALLET_SHOES = "\u{1FA70}"; // 🩰  ballet shoes
     public const WOMANS_BOOT = "\u{1F462}"; // 👢  woman’s boot
+    public const HAIR_PICK = "\u{1FAAE}"; // 🪮  hair pick
     public const CROWN = "\u{1F451}"; // 👑  crown
     public const WOMANS_HAT = "\u{1F452}"; // 👒  woman’s hat
     public const TOP_HAT = "\u{1F3A9}"; // 🎩  top hat
@@ -2983,6 +3008,8 @@ class Emoji
     public const BANJO = "\u{1FA95}"; // 🪕  banjo
     public const DRUM = "\u{1F941}"; // 🥁  drum
     public const LONG_DRUM = "\u{1FA98}"; // 🪘  long drum
+    public const MARACAS = "\u{1FA87}"; // 🪇  maracas
+    public const FLUTE = "\u{1FA88}"; // 🪈  flute
     public const MOBILE_PHONE = "\u{1F4F1}"; // 📱  mobile phone
     public const MOBILE_PHONE_WITH_ARROW = "\u{1F4F2}"; // 📲  mobile phone with arrow
     public const TELEPHONE = "\u{260E}\u{FE0F}"; // ☎️  telephone
@@ -3102,7 +3129,7 @@ class Emoji
     public const HAMMER_AND_WRENCH = "\u{1F6E0}\u{FE0F}"; // 🛠️  hammer and wrench
     public const DAGGER = "\u{1F5E1}\u{FE0F}"; // 🗡️  dagger
     public const CROSSED_SWORDS = "\u{2694}\u{FE0F}"; // ⚔️  crossed swords
-    public const WATER_PISTOL = "\u{1F52B}"; // 🔫  water pistol
+    public const BOMB = "\u{1F4A3}"; // 💣  bomb
     public const BOOMERANG = "\u{1FA83}"; // 🪃  boomerang
     public const BOW_AND_ARROW = "\u{1F3F9}"; // 🏹  bow and arrow
     public const SHIELD = "\u{1F6E1}\u{FE0F}"; // 🛡️  shield
@@ -3163,6 +3190,8 @@ class Emoji
     public const COFFIN = "\u{26B0}\u{FE0F}"; // ⚰️  coffin
     public const HEADSTONE = "\u{1FAA6}"; // 🪦  headstone
     public const FUNERAL_URN = "\u{26B1}\u{FE0F}"; // ⚱️  funeral urn
+    public const NAZAR_AMULET = "\u{1F9FF}"; // 🧿  nazar amulet
+    public const HAMSA = "\u{1FAAC}"; // 🪬  hamsa
     public const MOAI = "\u{1F5FF}"; // 🗿  moai
     public const PLACARD = "\u{1FAA7}"; // 🪧  placard
     public const IDENTIFICATION_CARD = "\u{1FAAA}"; // 🪪  identification card
@@ -3225,6 +3254,7 @@ class Emoji
     public const PEACE_SYMBOL = "\u{262E}\u{FE0F}"; // ☮️  peace symbol
     public const MENORAH = "\u{1F54E}"; // 🕎  menorah
     public const DOTTED_SIX_POINTED_STAR = "\u{1F52F}"; // 🔯  dotted six-pointed star
+    public const KHANDA = "\u{1FAAF}"; // 🪯  khanda
     public const ARIES = "\u{2648}"; // ♈  Aries
     public const TAURUS = "\u{2649}"; // ♉  Taurus
     public const GEMINI = "\u{264A}"; // ♊  Gemini
@@ -3260,6 +3290,7 @@ class Emoji
     public const DIM_BUTTON = "\u{1F505}"; // 🔅  dim button
     public const BRIGHT_BUTTON = "\u{1F506}"; // 🔆  bright button
     public const ANTENNA_BARS = "\u{1F4F6}"; // 📶  antenna bars
+    public const WIRELESS = "\u{1F6DC}"; // 🛜  wireless
     public const VIBRATION_MODE = "\u{1F4F3}"; // 📳  vibration mode
     public const MOBILE_PHONE_OFF = "\u{1F4F4}"; // 📴  mobile phone off
     public const FEMALE_SIGN = "\u{2640}\u{FE0F}"; // ♀️  female sign
@@ -3663,4 +3694,6 @@ class Emoji
     public const KNOCKED_OUT_FACE = self::FACE_WITH_CROSSED_OUT_EYES;
     /** @deprecated */
     public const HUGGING_FACE = self::SMILING_FACE_WITH_OPEN_HANDS;
+    /** @deprecated */
+    public const POUTING_FACE = self::ENRAGED_FACE;
 }
