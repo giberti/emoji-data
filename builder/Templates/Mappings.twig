@@ -1,0 +1,63 @@
+<?php
+declare(strict_types=1);
+
+namespace Giberti\EmojiData;
+
+/**
+{% include 'MITLicense.twig' %}
+ *
+ * This file was automatically generated on {{ generated }} using data files
+ * provided by Unicode Inc.
+ *
+ * @link {{ source }} Emoji Keyboard/Display Test Data
+ * @link https://www.unicode.org/license.html Unicode Data File license
+ */
+class Mappings
+{
+    const CLDR_TO_EMOJI = [
+{% for emoji in emojis %}
+        '{{ emoji.cldrName()|raw }}' => Emoji::{{ emoji.constName() }},
+{% endfor %}
+
+        // @deprecated CLDR
+        'hugging face' => Emoji::SMILING_FACE_WITH_OPEN_HANDS,
+        'knocked-out face' => Emoji::FACE_WITH_CROSSED_OUT_EYES,
+        'pouting face' => Emoji::ENRAGED_FACE,
+    ];
+
+    const MARKDOWN_TO_CLDR = [
+{% for emoji in emojis %}
+        ':{{ emoji.cldrAsMarkdown()|raw }}:' => '{{ emoji.cldrName()|raw }}',
+{% endfor %}
+
+        // @deprecated CLDR
+        ':hugging_face:' => 'hugging face',
+        ':knocked_out_face:' => 'knocked-out face',
+        ':pouting_face:' => 'pouting face',
+    ];
+
+    /**
+     * @return string|null
+     */
+    public static function getEmojiFromCldrName(string $cldrName): ?string
+    {
+        return isset(self::CLDR_TO_EMOJI[$cldrName])
+            ? self::CLDR_TO_EMOJI[$cldrName]
+            : null;
+    }
+
+    /**
+     * @return string|null
+     */
+    public static function getEmojiFromMarkdown(string $markdown): ?string
+    {
+        $cldrName = isset(self::MARKDOWN_TO_CLDR[$markdown])
+            ? self::MARKDOWN_TO_CLDR[$markdown]
+            : null;
+        if (!$cldrName) {
+            return null;
+        }
+
+        return self::getEmojiFromCldrName($cldrName);
+    }
+}

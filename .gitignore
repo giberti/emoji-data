@@ -1,6 +1,3 @@
 /vendor/
 .idea
 *.cache
-
-# builder will be added eventually
-/builder/

@@ -7,9 +7,10 @@
         "sort-packages": true
     },
     "require-dev": {
-        "nicmart/tree": "^0.3.0",
-        "phpunit/phpunit": "^9.3",
-        "twig/twig": "^3.0"
+        "ext-iconv": "*",
+        "nicmart/tree": "^0.3",
+        "phpunit/phpunit": "^9.5",
+        "twig/twig": "^3.3"
     },
     "require": {
         "php": "^7.3 || ^8.0"

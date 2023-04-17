@@ -1,0 +1,29 @@
+<?php
+declare(strict_types=1);
+
+namespace Giberti\EmojiData;
+
+/**
+{% include 'MITLicense.twig' %}
+ *
+ * This file was automatically generated on {{ generated }} using data files
+ * provided by Unicode Inc.
+ *
+ * @link {{ source }} Emoji Keyboard/Display Test Data
+ * @link https://www.unicode.org/license.html Unicode Data File license
+ */
+class Emoji
+{
+{% for emoji in emojis %}
+    public const {{ emoji.constName() }} = "{{ emoji.constantValue() }}"; // {{ emoji.emoji() }}  {{ emoji.cldrName() }}
+{% endfor %}
+
+    // The following mappings are provided for backwards compatibility only
+
+    /** @deprecated */
+    public const KNOCKED_OUT_FACE = self::FACE_WITH_CROSSED_OUT_EYES;
+    /** @deprecated */
+    public const HUGGING_FACE = self::SMILING_FACE_WITH_OPEN_HANDS;
+    /** @deprecated */
+    public const POUTING_FACE = self::ENRAGED_FACE;
+}
