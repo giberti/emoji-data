@@ -9,8 +9,8 @@
     "require-dev": {
         "ext-iconv": "*",
         "nicmart/tree": "^0.3",
-        "phpunit/phpunit": "^9.5",
-        "twig/twig": "^3.3"
+        "phpunit/phpunit": "^9.6",
+        "twig/twig": "^3.5"
     },
     "require": {
         "php": "^7.3 || ^8.0"
