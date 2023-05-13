@@ -7,6 +7,7 @@
 
 ```shell
 docker run -it --rm -v `pwd`:/app composer:latest bash
+composer install
 cd builder
 php Parser.php
 ```
