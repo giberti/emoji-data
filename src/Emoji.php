@@ -24,10 +24,10 @@ namespace Giberti\EmojiData;
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This file was automatically generated on 2022-10-13 using data files
+ * This file was automatically generated on 2023-10-15 using data files
  * provided by Unicode Inc.
  *
- * @link https://unicode.org/Public/emoji/15.0/emoji-test.txt Emoji Keyboard/Display Test Data
+ * @link https://unicode.org/Public/emoji/15.1/emoji-test.txt Emoji Keyboard/Display Test Data
  * @link https://www.unicode.org/license.html Unicode Data File license
  */
 class Emoji
@@ -82,6 +82,8 @@ class Emoji
     public const FACE_EXHALING = "\u{1F62E}\u{200D}\u{1F4A8}"; // 😮‍💨  face exhaling
     public const LYING_FACE = "\u{1F925}"; // 🤥  lying face
     public const SHAKING_FACE = "\u{1FAE8}"; // 🫨  shaking face
+    public const HEAD_SHAKING_HORIZONTALLY = "\u{1F642}\u{200D}\u{2194}\u{FE0F}"; // 🙂‍↔️  head shaking horizontally
+    public const HEAD_SHAKING_VERTICALLY = "\u{1F642}\u{200D}\u{2195}\u{FE0F}"; // 🙂‍↕️  head shaking vertically
     public const RELIEVED_FACE = "\u{1F60C}"; // 😌  relieved face
     public const PENSIVE_FACE = "\u{1F614}"; // 😔  pensive face
     public const SLEEPY_FACE = "\u{1F62A}"; // 😪  sleepy face
@@ -1575,6 +1577,24 @@ class Emoji
     public const WOMAN_WALKING_MEDIUM_SKIN_TONE = "\u{1F6B6}\u{1F3FD}\u{200D}\u{2640}\u{FE0F}"; // 🚶🏽‍♀️  woman walking: medium skin tone
     public const WOMAN_WALKING_MEDIUM_DARK_SKIN_TONE = "\u{1F6B6}\u{1F3FE}\u{200D}\u{2640}\u{FE0F}"; // 🚶🏾‍♀️  woman walking: medium-dark skin tone
     public const WOMAN_WALKING_DARK_SKIN_TONE = "\u{1F6B6}\u{1F3FF}\u{200D}\u{2640}\u{FE0F}"; // 🚶🏿‍♀️  woman walking: dark skin tone
+    public const PERSON_WALKING_FACING_RIGHT = "\u{1F6B6}\u{200D}\u{27A1}\u{FE0F}"; // 🚶‍➡️  person walking facing right
+    public const PERSON_WALKING_FACING_RIGHT_LIGHT_SKIN_TONE = "\u{1F6B6}\u{1F3FB}\u{200D}\u{27A1}\u{FE0F}"; // 🚶🏻‍➡️  person walking facing right: light skin tone
+    public const PERSON_WALKING_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE = "\u{1F6B6}\u{1F3FC}\u{200D}\u{27A1}\u{FE0F}"; // 🚶🏼‍➡️  person walking facing right: medium-light skin tone
+    public const PERSON_WALKING_FACING_RIGHT_MEDIUM_SKIN_TONE = "\u{1F6B6}\u{1F3FD}\u{200D}\u{27A1}\u{FE0F}"; // 🚶🏽‍➡️  person walking facing right: medium skin tone
+    public const PERSON_WALKING_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE = "\u{1F6B6}\u{1F3FE}\u{200D}\u{27A1}\u{FE0F}"; // 🚶🏾‍➡️  person walking facing right: medium-dark skin tone
+    public const PERSON_WALKING_FACING_RIGHT_DARK_SKIN_TONE = "\u{1F6B6}\u{1F3FF}\u{200D}\u{27A1}\u{FE0F}"; // 🚶🏿‍➡️  person walking facing right: dark skin tone
+    public const WOMAN_WALKING_FACING_RIGHT = "\u{1F6B6}\u{200D}\u{2640}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🚶‍♀️‍➡️  woman walking facing right
+    public const WOMAN_WALKING_FACING_RIGHT_LIGHT_SKIN_TONE = "\u{1F6B6}\u{1F3FB}\u{200D}\u{2640}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🚶🏻‍♀️‍➡️  woman walking facing right: light skin tone
+    public const WOMAN_WALKING_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE = "\u{1F6B6}\u{1F3FC}\u{200D}\u{2640}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🚶🏼‍♀️‍➡️  woman walking facing right: medium-light skin tone
+    public const WOMAN_WALKING_FACING_RIGHT_MEDIUM_SKIN_TONE = "\u{1F6B6}\u{1F3FD}\u{200D}\u{2640}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🚶🏽‍♀️‍➡️  woman walking facing right: medium skin tone
+    public const WOMAN_WALKING_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE = "\u{1F6B6}\u{1F3FE}\u{200D}\u{2640}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🚶🏾‍♀️‍➡️  woman walking facing right: medium-dark skin tone
+    public const WOMAN_WALKING_FACING_RIGHT_DARK_SKIN_TONE = "\u{1F6B6}\u{1F3FF}\u{200D}\u{2640}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🚶🏿‍♀️‍➡️  woman walking facing right: dark skin tone
+    public const MAN_WALKING_FACING_RIGHT = "\u{1F6B6}\u{200D}\u{2642}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🚶‍♂️‍➡️  man walking facing right
+    public const MAN_WALKING_FACING_RIGHT_LIGHT_SKIN_TONE = "\u{1F6B6}\u{1F3FB}\u{200D}\u{2642}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🚶🏻‍♂️‍➡️  man walking facing right: light skin tone
+    public const MAN_WALKING_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE = "\u{1F6B6}\u{1F3FC}\u{200D}\u{2642}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🚶🏼‍♂️‍➡️  man walking facing right: medium-light skin tone
+    public const MAN_WALKING_FACING_RIGHT_MEDIUM_SKIN_TONE = "\u{1F6B6}\u{1F3FD}\u{200D}\u{2642}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🚶🏽‍♂️‍➡️  man walking facing right: medium skin tone
+    public const MAN_WALKING_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE = "\u{1F6B6}\u{1F3FE}\u{200D}\u{2642}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🚶🏾‍♂️‍➡️  man walking facing right: medium-dark skin tone
+    public const MAN_WALKING_FACING_RIGHT_DARK_SKIN_TONE = "\u{1F6B6}\u{1F3FF}\u{200D}\u{2642}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🚶🏿‍♂️‍➡️  man walking facing right: dark skin tone
     public const PERSON_STANDING = "\u{1F9CD}"; // 🧍  person standing
     public const PERSON_STANDING_LIGHT_SKIN_TONE = "\u{1F9CD}\u{1F3FB}"; // 🧍🏻  person standing: light skin tone
     public const PERSON_STANDING_MEDIUM_LIGHT_SKIN_TONE = "\u{1F9CD}\u{1F3FC}"; // 🧍🏼  person standing: medium-light skin tone
@@ -1611,60 +1631,132 @@ class Emoji
     public const WOMAN_KNEELING_MEDIUM_SKIN_TONE = "\u{1F9CE}\u{1F3FD}\u{200D}\u{2640}\u{FE0F}"; // 🧎🏽‍♀️  woman kneeling: medium skin tone
     public const WOMAN_KNEELING_MEDIUM_DARK_SKIN_TONE = "\u{1F9CE}\u{1F3FE}\u{200D}\u{2640}\u{FE0F}"; // 🧎🏾‍♀️  woman kneeling: medium-dark skin tone
     public const WOMAN_KNEELING_DARK_SKIN_TONE = "\u{1F9CE}\u{1F3FF}\u{200D}\u{2640}\u{FE0F}"; // 🧎🏿‍♀️  woman kneeling: dark skin tone
+    public const PERSON_KNEELING_FACING_RIGHT = "\u{1F9CE}\u{200D}\u{27A1}\u{FE0F}"; // 🧎‍➡️  person kneeling facing right
+    public const PERSON_KNEELING_FACING_RIGHT_LIGHT_SKIN_TONE = "\u{1F9CE}\u{1F3FB}\u{200D}\u{27A1}\u{FE0F}"; // 🧎🏻‍➡️  person kneeling facing right: light skin tone
+    public const PERSON_KNEELING_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE = "\u{1F9CE}\u{1F3FC}\u{200D}\u{27A1}\u{FE0F}"; // 🧎🏼‍➡️  person kneeling facing right: medium-light skin tone
+    public const PERSON_KNEELING_FACING_RIGHT_MEDIUM_SKIN_TONE = "\u{1F9CE}\u{1F3FD}\u{200D}\u{27A1}\u{FE0F}"; // 🧎🏽‍➡️  person kneeling facing right: medium skin tone
+    public const PERSON_KNEELING_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE = "\u{1F9CE}\u{1F3FE}\u{200D}\u{27A1}\u{FE0F}"; // 🧎🏾‍➡️  person kneeling facing right: medium-dark skin tone
+    public const PERSON_KNEELING_FACING_RIGHT_DARK_SKIN_TONE = "\u{1F9CE}\u{1F3FF}\u{200D}\u{27A1}\u{FE0F}"; // 🧎🏿‍➡️  person kneeling facing right: dark skin tone
+    public const WOMAN_KNEELING_FACING_RIGHT = "\u{1F9CE}\u{200D}\u{2640}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🧎‍♀️‍➡️  woman kneeling facing right
+    public const WOMAN_KNEELING_FACING_RIGHT_LIGHT_SKIN_TONE = "\u{1F9CE}\u{1F3FB}\u{200D}\u{2640}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🧎🏻‍♀️‍➡️  woman kneeling facing right: light skin tone
+    public const WOMAN_KNEELING_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE = "\u{1F9CE}\u{1F3FC}\u{200D}\u{2640}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🧎🏼‍♀️‍➡️  woman kneeling facing right: medium-light skin tone
+    public const WOMAN_KNEELING_FACING_RIGHT_MEDIUM_SKIN_TONE = "\u{1F9CE}\u{1F3FD}\u{200D}\u{2640}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🧎🏽‍♀️‍➡️  woman kneeling facing right: medium skin tone
+    public const WOMAN_KNEELING_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE = "\u{1F9CE}\u{1F3FE}\u{200D}\u{2640}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🧎🏾‍♀️‍➡️  woman kneeling facing right: medium-dark skin tone
+    public const WOMAN_KNEELING_FACING_RIGHT_DARK_SKIN_TONE = "\u{1F9CE}\u{1F3FF}\u{200D}\u{2640}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🧎🏿‍♀️‍➡️  woman kneeling facing right: dark skin tone
+    public const MAN_KNEELING_FACING_RIGHT = "\u{1F9CE}\u{200D}\u{2642}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🧎‍♂️‍➡️  man kneeling facing right
+    public const MAN_KNEELING_FACING_RIGHT_LIGHT_SKIN_TONE = "\u{1F9CE}\u{1F3FB}\u{200D}\u{2642}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🧎🏻‍♂️‍➡️  man kneeling facing right: light skin tone
+    public const MAN_KNEELING_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE = "\u{1F9CE}\u{1F3FC}\u{200D}\u{2642}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🧎🏼‍♂️‍➡️  man kneeling facing right: medium-light skin tone
+    public const MAN_KNEELING_FACING_RIGHT_MEDIUM_SKIN_TONE = "\u{1F9CE}\u{1F3FD}\u{200D}\u{2642}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🧎🏽‍♂️‍➡️  man kneeling facing right: medium skin tone
+    public const MAN_KNEELING_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE = "\u{1F9CE}\u{1F3FE}\u{200D}\u{2642}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🧎🏾‍♂️‍➡️  man kneeling facing right: medium-dark skin tone
+    public const MAN_KNEELING_FACING_RIGHT_DARK_SKIN_TONE = "\u{1F9CE}\u{1F3FF}\u{200D}\u{2642}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🧎🏿‍♂️‍➡️  man kneeling facing right: dark skin tone
     public const PERSON_WITH_WHITE_CANE = "\u{1F9D1}\u{200D}\u{1F9AF}"; // 🧑‍🦯  person with white cane
     public const PERSON_WITH_WHITE_CANE_LIGHT_SKIN_TONE = "\u{1F9D1}\u{1F3FB}\u{200D}\u{1F9AF}"; // 🧑🏻‍🦯  person with white cane: light skin tone
     public const PERSON_WITH_WHITE_CANE_MEDIUM_LIGHT_SKIN_TONE = "\u{1F9D1}\u{1F3FC}\u{200D}\u{1F9AF}"; // 🧑🏼‍🦯  person with white cane: medium-light skin tone
     public const PERSON_WITH_WHITE_CANE_MEDIUM_SKIN_TONE = "\u{1F9D1}\u{1F3FD}\u{200D}\u{1F9AF}"; // 🧑🏽‍🦯  person with white cane: medium skin tone
     public const PERSON_WITH_WHITE_CANE_MEDIUM_DARK_SKIN_TONE = "\u{1F9D1}\u{1F3FE}\u{200D}\u{1F9AF}"; // 🧑🏾‍🦯  person with white cane: medium-dark skin tone
     public const PERSON_WITH_WHITE_CANE_DARK_SKIN_TONE = "\u{1F9D1}\u{1F3FF}\u{200D}\u{1F9AF}"; // 🧑🏿‍🦯  person with white cane: dark skin tone
+    public const PERSON_WITH_WHITE_CANE_FACING_RIGHT = "\u{1F9D1}\u{200D}\u{1F9AF}\u{200D}\u{27A1}\u{FE0F}"; // 🧑‍🦯‍➡️  person with white cane facing right
+    public const PERSON_WITH_WHITE_CANE_FACING_RIGHT_LIGHT_SKIN_TONE = "\u{1F9D1}\u{1F3FB}\u{200D}\u{1F9AF}\u{200D}\u{27A1}\u{FE0F}"; // 🧑🏻‍🦯‍➡️  person with white cane facing right: light skin tone
+    public const PERSON_WITH_WHITE_CANE_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE = "\u{1F9D1}\u{1F3FC}\u{200D}\u{1F9AF}\u{200D}\u{27A1}\u{FE0F}"; // 🧑🏼‍🦯‍➡️  person with white cane facing right: medium-light skin tone
+    public const PERSON_WITH_WHITE_CANE_FACING_RIGHT_MEDIUM_SKIN_TONE = "\u{1F9D1}\u{1F3FD}\u{200D}\u{1F9AF}\u{200D}\u{27A1}\u{FE0F}"; // 🧑🏽‍🦯‍➡️  person with white cane facing right: medium skin tone
+    public const PERSON_WITH_WHITE_CANE_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE = "\u{1F9D1}\u{1F3FE}\u{200D}\u{1F9AF}\u{200D}\u{27A1}\u{FE0F}"; // 🧑🏾‍🦯‍➡️  person with white cane facing right: medium-dark skin tone
+    public const PERSON_WITH_WHITE_CANE_FACING_RIGHT_DARK_SKIN_TONE = "\u{1F9D1}\u{1F3FF}\u{200D}\u{1F9AF}\u{200D}\u{27A1}\u{FE0F}"; // 🧑🏿‍🦯‍➡️  person with white cane facing right: dark skin tone
     public const MAN_WITH_WHITE_CANE = "\u{1F468}\u{200D}\u{1F9AF}"; // 👨‍🦯  man with white cane
     public const MAN_WITH_WHITE_CANE_LIGHT_SKIN_TONE = "\u{1F468}\u{1F3FB}\u{200D}\u{1F9AF}"; // 👨🏻‍🦯  man with white cane: light skin tone
     public const MAN_WITH_WHITE_CANE_MEDIUM_LIGHT_SKIN_TONE = "\u{1F468}\u{1F3FC}\u{200D}\u{1F9AF}"; // 👨🏼‍🦯  man with white cane: medium-light skin tone
     public const MAN_WITH_WHITE_CANE_MEDIUM_SKIN_TONE = "\u{1F468}\u{1F3FD}\u{200D}\u{1F9AF}"; // 👨🏽‍🦯  man with white cane: medium skin tone
     public const MAN_WITH_WHITE_CANE_MEDIUM_DARK_SKIN_TONE = "\u{1F468}\u{1F3FE}\u{200D}\u{1F9AF}"; // 👨🏾‍🦯  man with white cane: medium-dark skin tone
     public const MAN_WITH_WHITE_CANE_DARK_SKIN_TONE = "\u{1F468}\u{1F3FF}\u{200D}\u{1F9AF}"; // 👨🏿‍🦯  man with white cane: dark skin tone
+    public const MAN_WITH_WHITE_CANE_FACING_RIGHT = "\u{1F468}\u{200D}\u{1F9AF}\u{200D}\u{27A1}\u{FE0F}"; // 👨‍🦯‍➡️  man with white cane facing right
+    public const MAN_WITH_WHITE_CANE_FACING_RIGHT_LIGHT_SKIN_TONE = "\u{1F468}\u{1F3FB}\u{200D}\u{1F9AF}\u{200D}\u{27A1}\u{FE0F}"; // 👨🏻‍🦯‍➡️  man with white cane facing right: light skin tone
+    public const MAN_WITH_WHITE_CANE_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE = "\u{1F468}\u{1F3FC}\u{200D}\u{1F9AF}\u{200D}\u{27A1}\u{FE0F}"; // 👨🏼‍🦯‍➡️  man with white cane facing right: medium-light skin tone
+    public const MAN_WITH_WHITE_CANE_FACING_RIGHT_MEDIUM_SKIN_TONE = "\u{1F468}\u{1F3FD}\u{200D}\u{1F9AF}\u{200D}\u{27A1}\u{FE0F}"; // 👨🏽‍🦯‍➡️  man with white cane facing right: medium skin tone
+    public const MAN_WITH_WHITE_CANE_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE = "\u{1F468}\u{1F3FE}\u{200D}\u{1F9AF}\u{200D}\u{27A1}\u{FE0F}"; // 👨🏾‍🦯‍➡️  man with white cane facing right: medium-dark skin tone
+    public const MAN_WITH_WHITE_CANE_FACING_RIGHT_DARK_SKIN_TONE = "\u{1F468}\u{1F3FF}\u{200D}\u{1F9AF}\u{200D}\u{27A1}\u{FE0F}"; // 👨🏿‍🦯‍➡️  man with white cane facing right: dark skin tone
     public const WOMAN_WITH_WHITE_CANE = "\u{1F469}\u{200D}\u{1F9AF}"; // 👩‍🦯  woman with white cane
     public const WOMAN_WITH_WHITE_CANE_LIGHT_SKIN_TONE = "\u{1F469}\u{1F3FB}\u{200D}\u{1F9AF}"; // 👩🏻‍🦯  woman with white cane: light skin tone
     public const WOMAN_WITH_WHITE_CANE_MEDIUM_LIGHT_SKIN_TONE = "\u{1F469}\u{1F3FC}\u{200D}\u{1F9AF}"; // 👩🏼‍🦯  woman with white cane: medium-light skin tone
     public const WOMAN_WITH_WHITE_CANE_MEDIUM_SKIN_TONE = "\u{1F469}\u{1F3FD}\u{200D}\u{1F9AF}"; // 👩🏽‍🦯  woman with white cane: medium skin tone
     public const WOMAN_WITH_WHITE_CANE_MEDIUM_DARK_SKIN_TONE = "\u{1F469}\u{1F3FE}\u{200D}\u{1F9AF}"; // 👩🏾‍🦯  woman with white cane: medium-dark skin tone
     public const WOMAN_WITH_WHITE_CANE_DARK_SKIN_TONE = "\u{1F469}\u{1F3FF}\u{200D}\u{1F9AF}"; // 👩🏿‍🦯  woman with white cane: dark skin tone
+    public const WOMAN_WITH_WHITE_CANE_FACING_RIGHT = "\u{1F469}\u{200D}\u{1F9AF}\u{200D}\u{27A1}\u{FE0F}"; // 👩‍🦯‍➡️  woman with white cane facing right
+    public const WOMAN_WITH_WHITE_CANE_FACING_RIGHT_LIGHT_SKIN_TONE = "\u{1F469}\u{1F3FB}\u{200D}\u{1F9AF}\u{200D}\u{27A1}\u{FE0F}"; // 👩🏻‍🦯‍➡️  woman with white cane facing right: light skin tone
+    public const WOMAN_WITH_WHITE_CANE_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE = "\u{1F469}\u{1F3FC}\u{200D}\u{1F9AF}\u{200D}\u{27A1}\u{FE0F}"; // 👩🏼‍🦯‍➡️  woman with white cane facing right: medium-light skin tone
+    public const WOMAN_WITH_WHITE_CANE_FACING_RIGHT_MEDIUM_SKIN_TONE = "\u{1F469}\u{1F3FD}\u{200D}\u{1F9AF}\u{200D}\u{27A1}\u{FE0F}"; // 👩🏽‍🦯‍➡️  woman with white cane facing right: medium skin tone
+    public const WOMAN_WITH_WHITE_CANE_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE = "\u{1F469}\u{1F3FE}\u{200D}\u{1F9AF}\u{200D}\u{27A1}\u{FE0F}"; // 👩🏾‍🦯‍➡️  woman with white cane facing right: medium-dark skin tone
+    public const WOMAN_WITH_WHITE_CANE_FACING_RIGHT_DARK_SKIN_TONE = "\u{1F469}\u{1F3FF}\u{200D}\u{1F9AF}\u{200D}\u{27A1}\u{FE0F}"; // 👩🏿‍🦯‍➡️  woman with white cane facing right: dark skin tone
     public const PERSON_IN_MOTORIZED_WHEELCHAIR = "\u{1F9D1}\u{200D}\u{1F9BC}"; // 🧑‍🦼  person in motorized wheelchair
     public const PERSON_IN_MOTORIZED_WHEELCHAIR_LIGHT_SKIN_TONE = "\u{1F9D1}\u{1F3FB}\u{200D}\u{1F9BC}"; // 🧑🏻‍🦼  person in motorized wheelchair: light skin tone
     public const PERSON_IN_MOTORIZED_WHEELCHAIR_MEDIUM_LIGHT_SKIN_TONE = "\u{1F9D1}\u{1F3FC}\u{200D}\u{1F9BC}"; // 🧑🏼‍🦼  person in motorized wheelchair: medium-light skin tone
     public const PERSON_IN_MOTORIZED_WHEELCHAIR_MEDIUM_SKIN_TONE = "\u{1F9D1}\u{1F3FD}\u{200D}\u{1F9BC}"; // 🧑🏽‍🦼  person in motorized wheelchair: medium skin tone
     public const PERSON_IN_MOTORIZED_WHEELCHAIR_MEDIUM_DARK_SKIN_TONE = "\u{1F9D1}\u{1F3FE}\u{200D}\u{1F9BC}"; // 🧑🏾‍🦼  person in motorized wheelchair: medium-dark skin tone
     public const PERSON_IN_MOTORIZED_WHEELCHAIR_DARK_SKIN_TONE = "\u{1F9D1}\u{1F3FF}\u{200D}\u{1F9BC}"; // 🧑🏿‍🦼  person in motorized wheelchair: dark skin tone
+    public const PERSON_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT = "\u{1F9D1}\u{200D}\u{1F9BC}\u{200D}\u{27A1}\u{FE0F}"; // 🧑‍🦼‍➡️  person in motorized wheelchair facing right
+    public const PERSON_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_LIGHT_SKIN_TONE = "\u{1F9D1}\u{1F3FB}\u{200D}\u{1F9BC}\u{200D}\u{27A1}\u{FE0F}"; // 🧑🏻‍🦼‍➡️  person in motorized wheelchair facing right: light skin tone
+    public const PERSON_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE = "\u{1F9D1}\u{1F3FC}\u{200D}\u{1F9BC}\u{200D}\u{27A1}\u{FE0F}"; // 🧑🏼‍🦼‍➡️  person in motorized wheelchair facing right: medium-light skin tone
+    public const PERSON_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_MEDIUM_SKIN_TONE = "\u{1F9D1}\u{1F3FD}\u{200D}\u{1F9BC}\u{200D}\u{27A1}\u{FE0F}"; // 🧑🏽‍🦼‍➡️  person in motorized wheelchair facing right: medium skin tone
+    public const PERSON_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE = "\u{1F9D1}\u{1F3FE}\u{200D}\u{1F9BC}\u{200D}\u{27A1}\u{FE0F}"; // 🧑🏾‍🦼‍➡️  person in motorized wheelchair facing right: medium-dark skin tone
+    public const PERSON_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_DARK_SKIN_TONE = "\u{1F9D1}\u{1F3FF}\u{200D}\u{1F9BC}\u{200D}\u{27A1}\u{FE0F}"; // 🧑🏿‍🦼‍➡️  person in motorized wheelchair facing right: dark skin tone
     public const MAN_IN_MOTORIZED_WHEELCHAIR = "\u{1F468}\u{200D}\u{1F9BC}"; // 👨‍🦼  man in motorized wheelchair
     public const MAN_IN_MOTORIZED_WHEELCHAIR_LIGHT_SKIN_TONE = "\u{1F468}\u{1F3FB}\u{200D}\u{1F9BC}"; // 👨🏻‍🦼  man in motorized wheelchair: light skin tone
     public const MAN_IN_MOTORIZED_WHEELCHAIR_MEDIUM_LIGHT_SKIN_TONE = "\u{1F468}\u{1F3FC}\u{200D}\u{1F9BC}"; // 👨🏼‍🦼  man in motorized wheelchair: medium-light skin tone
     public const MAN_IN_MOTORIZED_WHEELCHAIR_MEDIUM_SKIN_TONE = "\u{1F468}\u{1F3FD}\u{200D}\u{1F9BC}"; // 👨🏽‍🦼  man in motorized wheelchair: medium skin tone
     public const MAN_IN_MOTORIZED_WHEELCHAIR_MEDIUM_DARK_SKIN_TONE = "\u{1F468}\u{1F3FE}\u{200D}\u{1F9BC}"; // 👨🏾‍🦼  man in motorized wheelchair: medium-dark skin tone
     public const MAN_IN_MOTORIZED_WHEELCHAIR_DARK_SKIN_TONE = "\u{1F468}\u{1F3FF}\u{200D}\u{1F9BC}"; // 👨🏿‍🦼  man in motorized wheelchair: dark skin tone
+    public const MAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT = "\u{1F468}\u{200D}\u{1F9BC}\u{200D}\u{27A1}\u{FE0F}"; // 👨‍🦼‍➡️  man in motorized wheelchair facing right
+    public const MAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_LIGHT_SKIN_TONE = "\u{1F468}\u{1F3FB}\u{200D}\u{1F9BC}\u{200D}\u{27A1}\u{FE0F}"; // 👨🏻‍🦼‍➡️  man in motorized wheelchair facing right: light skin tone
+    public const MAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE = "\u{1F468}\u{1F3FC}\u{200D}\u{1F9BC}\u{200D}\u{27A1}\u{FE0F}"; // 👨🏼‍🦼‍➡️  man in motorized wheelchair facing right: medium-light skin tone
+    public const MAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_MEDIUM_SKIN_TONE = "\u{1F468}\u{1F3FD}\u{200D}\u{1F9BC}\u{200D}\u{27A1}\u{FE0F}"; // 👨🏽‍🦼‍➡️  man in motorized wheelchair facing right: medium skin tone
+    public const MAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE = "\u{1F468}\u{1F3FE}\u{200D}\u{1F9BC}\u{200D}\u{27A1}\u{FE0F}"; // 👨🏾‍🦼‍➡️  man in motorized wheelchair facing right: medium-dark skin tone
+    public const MAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_DARK_SKIN_TONE = "\u{1F468}\u{1F3FF}\u{200D}\u{1F9BC}\u{200D}\u{27A1}\u{FE0F}"; // 👨🏿‍🦼‍➡️  man in motorized wheelchair facing right: dark skin tone
     public const WOMAN_IN_MOTORIZED_WHEELCHAIR = "\u{1F469}\u{200D}\u{1F9BC}"; // 👩‍🦼  woman in motorized wheelchair
     public const WOMAN_IN_MOTORIZED_WHEELCHAIR_LIGHT_SKIN_TONE = "\u{1F469}\u{1F3FB}\u{200D}\u{1F9BC}"; // 👩🏻‍🦼  woman in motorized wheelchair: light skin tone
     public const WOMAN_IN_MOTORIZED_WHEELCHAIR_MEDIUM_LIGHT_SKIN_TONE = "\u{1F469}\u{1F3FC}\u{200D}\u{1F9BC}"; // 👩🏼‍🦼  woman in motorized wheelchair: medium-light skin tone
     public const WOMAN_IN_MOTORIZED_WHEELCHAIR_MEDIUM_SKIN_TONE = "\u{1F469}\u{1F3FD}\u{200D}\u{1F9BC}"; // 👩🏽‍🦼  woman in motorized wheelchair: medium skin tone
     public const WOMAN_IN_MOTORIZED_WHEELCHAIR_MEDIUM_DARK_SKIN_TONE = "\u{1F469}\u{1F3FE}\u{200D}\u{1F9BC}"; // 👩🏾‍🦼  woman in motorized wheelchair: medium-dark skin tone
     public const WOMAN_IN_MOTORIZED_WHEELCHAIR_DARK_SKIN_TONE = "\u{1F469}\u{1F3FF}\u{200D}\u{1F9BC}"; // 👩🏿‍🦼  woman in motorized wheelchair: dark skin tone
+    public const WOMAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT = "\u{1F469}\u{200D}\u{1F9BC}\u{200D}\u{27A1}\u{FE0F}"; // 👩‍🦼‍➡️  woman in motorized wheelchair facing right
+    public const WOMAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_LIGHT_SKIN_TONE = "\u{1F469}\u{1F3FB}\u{200D}\u{1F9BC}\u{200D}\u{27A1}\u{FE0F}"; // 👩🏻‍🦼‍➡️  woman in motorized wheelchair facing right: light skin tone
+    public const WOMAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE = "\u{1F469}\u{1F3FC}\u{200D}\u{1F9BC}\u{200D}\u{27A1}\u{FE0F}"; // 👩🏼‍🦼‍➡️  woman in motorized wheelchair facing right: medium-light skin tone
+    public const WOMAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_MEDIUM_SKIN_TONE = "\u{1F469}\u{1F3FD}\u{200D}\u{1F9BC}\u{200D}\u{27A1}\u{FE0F}"; // 👩🏽‍🦼‍➡️  woman in motorized wheelchair facing right: medium skin tone
+    public const WOMAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE = "\u{1F469}\u{1F3FE}\u{200D}\u{1F9BC}\u{200D}\u{27A1}\u{FE0F}"; // 👩🏾‍🦼‍➡️  woman in motorized wheelchair facing right: medium-dark skin tone
+    public const WOMAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT_DARK_SKIN_TONE = "\u{1F469}\u{1F3FF}\u{200D}\u{1F9BC}\u{200D}\u{27A1}\u{FE0F}"; // 👩🏿‍🦼‍➡️  woman in motorized wheelchair facing right: dark skin tone
     public const PERSON_IN_MANUAL_WHEELCHAIR = "\u{1F9D1}\u{200D}\u{1F9BD}"; // 🧑‍🦽  person in manual wheelchair
     public const PERSON_IN_MANUAL_WHEELCHAIR_LIGHT_SKIN_TONE = "\u{1F9D1}\u{1F3FB}\u{200D}\u{1F9BD}"; // 🧑🏻‍🦽  person in manual wheelchair: light skin tone
     public const PERSON_IN_MANUAL_WHEELCHAIR_MEDIUM_LIGHT_SKIN_TONE = "\u{1F9D1}\u{1F3FC}\u{200D}\u{1F9BD}"; // 🧑🏼‍🦽  person in manual wheelchair: medium-light skin tone
     public const PERSON_IN_MANUAL_WHEELCHAIR_MEDIUM_SKIN_TONE = "\u{1F9D1}\u{1F3FD}\u{200D}\u{1F9BD}"; // 🧑🏽‍🦽  person in manual wheelchair: medium skin tone
     public const PERSON_IN_MANUAL_WHEELCHAIR_MEDIUM_DARK_SKIN_TONE = "\u{1F9D1}\u{1F3FE}\u{200D}\u{1F9BD}"; // 🧑🏾‍🦽  person in manual wheelchair: medium-dark skin tone
     public const PERSON_IN_MANUAL_WHEELCHAIR_DARK_SKIN_TONE = "\u{1F9D1}\u{1F3FF}\u{200D}\u{1F9BD}"; // 🧑🏿‍🦽  person in manual wheelchair: dark skin tone
+    public const PERSON_IN_MANUAL_WHEELCHAIR_FACING_RIGHT = "\u{1F9D1}\u{200D}\u{1F9BD}\u{200D}\u{27A1}\u{FE0F}"; // 🧑‍🦽‍➡️  person in manual wheelchair facing right
+    public const PERSON_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_LIGHT_SKIN_TONE = "\u{1F9D1}\u{1F3FB}\u{200D}\u{1F9BD}\u{200D}\u{27A1}\u{FE0F}"; // 🧑🏻‍🦽‍➡️  person in manual wheelchair facing right: light skin tone
+    public const PERSON_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE = "\u{1F9D1}\u{1F3FC}\u{200D}\u{1F9BD}\u{200D}\u{27A1}\u{FE0F}"; // 🧑🏼‍🦽‍➡️  person in manual wheelchair facing right: medium-light skin tone
+    public const PERSON_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_MEDIUM_SKIN_TONE = "\u{1F9D1}\u{1F3FD}\u{200D}\u{1F9BD}\u{200D}\u{27A1}\u{FE0F}"; // 🧑🏽‍🦽‍➡️  person in manual wheelchair facing right: medium skin tone
+    public const PERSON_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE = "\u{1F9D1}\u{1F3FE}\u{200D}\u{1F9BD}\u{200D}\u{27A1}\u{FE0F}"; // 🧑🏾‍🦽‍➡️  person in manual wheelchair facing right: medium-dark skin tone
+    public const PERSON_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_DARK_SKIN_TONE = "\u{1F9D1}\u{1F3FF}\u{200D}\u{1F9BD}\u{200D}\u{27A1}\u{FE0F}"; // 🧑🏿‍🦽‍➡️  person in manual wheelchair facing right: dark skin tone
     public const MAN_IN_MANUAL_WHEELCHAIR = "\u{1F468}\u{200D}\u{1F9BD}"; // 👨‍🦽  man in manual wheelchair
     public const MAN_IN_MANUAL_WHEELCHAIR_LIGHT_SKIN_TONE = "\u{1F468}\u{1F3FB}\u{200D}\u{1F9BD}"; // 👨🏻‍🦽  man in manual wheelchair: light skin tone
     public const MAN_IN_MANUAL_WHEELCHAIR_MEDIUM_LIGHT_SKIN_TONE = "\u{1F468}\u{1F3FC}\u{200D}\u{1F9BD}"; // 👨🏼‍🦽  man in manual wheelchair: medium-light skin tone
     public const MAN_IN_MANUAL_WHEELCHAIR_MEDIUM_SKIN_TONE = "\u{1F468}\u{1F3FD}\u{200D}\u{1F9BD}"; // 👨🏽‍🦽  man in manual wheelchair: medium skin tone
     public const MAN_IN_MANUAL_WHEELCHAIR_MEDIUM_DARK_SKIN_TONE = "\u{1F468}\u{1F3FE}\u{200D}\u{1F9BD}"; // 👨🏾‍🦽  man in manual wheelchair: medium-dark skin tone
     public const MAN_IN_MANUAL_WHEELCHAIR_DARK_SKIN_TONE = "\u{1F468}\u{1F3FF}\u{200D}\u{1F9BD}"; // 👨🏿‍🦽  man in manual wheelchair: dark skin tone
+    public const MAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT = "\u{1F468}\u{200D}\u{1F9BD}\u{200D}\u{27A1}\u{FE0F}"; // 👨‍🦽‍➡️  man in manual wheelchair facing right
+    public const MAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_LIGHT_SKIN_TONE = "\u{1F468}\u{1F3FB}\u{200D}\u{1F9BD}\u{200D}\u{27A1}\u{FE0F}"; // 👨🏻‍🦽‍➡️  man in manual wheelchair facing right: light skin tone
+    public const MAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE = "\u{1F468}\u{1F3FC}\u{200D}\u{1F9BD}\u{200D}\u{27A1}\u{FE0F}"; // 👨🏼‍🦽‍➡️  man in manual wheelchair facing right: medium-light skin tone
+    public const MAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_MEDIUM_SKIN_TONE = "\u{1F468}\u{1F3FD}\u{200D}\u{1F9BD}\u{200D}\u{27A1}\u{FE0F}"; // 👨🏽‍🦽‍➡️  man in manual wheelchair facing right: medium skin tone
+    public const MAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE = "\u{1F468}\u{1F3FE}\u{200D}\u{1F9BD}\u{200D}\u{27A1}\u{FE0F}"; // 👨🏾‍🦽‍➡️  man in manual wheelchair facing right: medium-dark skin tone
+    public const MAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_DARK_SKIN_TONE = "\u{1F468}\u{1F3FF}\u{200D}\u{1F9BD}\u{200D}\u{27A1}\u{FE0F}"; // 👨🏿‍🦽‍➡️  man in manual wheelchair facing right: dark skin tone
     public const WOMAN_IN_MANUAL_WHEELCHAIR = "\u{1F469}\u{200D}\u{1F9BD}"; // 👩‍🦽  woman in manual wheelchair
     public const WOMAN_IN_MANUAL_WHEELCHAIR_LIGHT_SKIN_TONE = "\u{1F469}\u{1F3FB}\u{200D}\u{1F9BD}"; // 👩🏻‍🦽  woman in manual wheelchair: light skin tone
     public const WOMAN_IN_MANUAL_WHEELCHAIR_MEDIUM_LIGHT_SKIN_TONE = "\u{1F469}\u{1F3FC}\u{200D}\u{1F9BD}"; // 👩🏼‍🦽  woman in manual wheelchair: medium-light skin tone
     public const WOMAN_IN_MANUAL_WHEELCHAIR_MEDIUM_SKIN_TONE = "\u{1F469}\u{1F3FD}\u{200D}\u{1F9BD}"; // 👩🏽‍🦽  woman in manual wheelchair: medium skin tone
     public const WOMAN_IN_MANUAL_WHEELCHAIR_MEDIUM_DARK_SKIN_TONE = "\u{1F469}\u{1F3FE}\u{200D}\u{1F9BD}"; // 👩🏾‍🦽  woman in manual wheelchair: medium-dark skin tone
     public const WOMAN_IN_MANUAL_WHEELCHAIR_DARK_SKIN_TONE = "\u{1F469}\u{1F3FF}\u{200D}\u{1F9BD}"; // 👩🏿‍🦽  woman in manual wheelchair: dark skin tone
+    public const WOMAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT = "\u{1F469}\u{200D}\u{1F9BD}\u{200D}\u{27A1}\u{FE0F}"; // 👩‍🦽‍➡️  woman in manual wheelchair facing right
+    public const WOMAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_LIGHT_SKIN_TONE = "\u{1F469}\u{1F3FB}\u{200D}\u{1F9BD}\u{200D}\u{27A1}\u{FE0F}"; // 👩🏻‍🦽‍➡️  woman in manual wheelchair facing right: light skin tone
+    public const WOMAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE = "\u{1F469}\u{1F3FC}\u{200D}\u{1F9BD}\u{200D}\u{27A1}\u{FE0F}"; // 👩🏼‍🦽‍➡️  woman in manual wheelchair facing right: medium-light skin tone
+    public const WOMAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_MEDIUM_SKIN_TONE = "\u{1F469}\u{1F3FD}\u{200D}\u{1F9BD}\u{200D}\u{27A1}\u{FE0F}"; // 👩🏽‍🦽‍➡️  woman in manual wheelchair facing right: medium skin tone
+    public const WOMAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE = "\u{1F469}\u{1F3FE}\u{200D}\u{1F9BD}\u{200D}\u{27A1}\u{FE0F}"; // 👩🏾‍🦽‍➡️  woman in manual wheelchair facing right: medium-dark skin tone
+    public const WOMAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT_DARK_SKIN_TONE = "\u{1F469}\u{1F3FF}\u{200D}\u{1F9BD}\u{200D}\u{27A1}\u{FE0F}"; // 👩🏿‍🦽‍➡️  woman in manual wheelchair facing right: dark skin tone
     public const PERSON_RUNNING = "\u{1F3C3}"; // 🏃  person running
     public const PERSON_RUNNING_LIGHT_SKIN_TONE = "\u{1F3C3}\u{1F3FB}"; // 🏃🏻  person running: light skin tone
     public const PERSON_RUNNING_MEDIUM_LIGHT_SKIN_TONE = "\u{1F3C3}\u{1F3FC}"; // 🏃🏼  person running: medium-light skin tone
@@ -1683,6 +1775,24 @@ class Emoji
     public const WOMAN_RUNNING_MEDIUM_SKIN_TONE = "\u{1F3C3}\u{1F3FD}\u{200D}\u{2640}\u{FE0F}"; // 🏃🏽‍♀️  woman running: medium skin tone
     public const WOMAN_RUNNING_MEDIUM_DARK_SKIN_TONE = "\u{1F3C3}\u{1F3FE}\u{200D}\u{2640}\u{FE0F}"; // 🏃🏾‍♀️  woman running: medium-dark skin tone
     public const WOMAN_RUNNING_DARK_SKIN_TONE = "\u{1F3C3}\u{1F3FF}\u{200D}\u{2640}\u{FE0F}"; // 🏃🏿‍♀️  woman running: dark skin tone
+    public const PERSON_RUNNING_FACING_RIGHT = "\u{1F3C3}\u{200D}\u{27A1}\u{FE0F}"; // 🏃‍➡️  person running facing right
+    public const PERSON_RUNNING_FACING_RIGHT_LIGHT_SKIN_TONE = "\u{1F3C3}\u{1F3FB}\u{200D}\u{27A1}\u{FE0F}"; // 🏃🏻‍➡️  person running facing right: light skin tone
+    public const PERSON_RUNNING_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE = "\u{1F3C3}\u{1F3FC}\u{200D}\u{27A1}\u{FE0F}"; // 🏃🏼‍➡️  person running facing right: medium-light skin tone
+    public const PERSON_RUNNING_FACING_RIGHT_MEDIUM_SKIN_TONE = "\u{1F3C3}\u{1F3FD}\u{200D}\u{27A1}\u{FE0F}"; // 🏃🏽‍➡️  person running facing right: medium skin tone
+    public const PERSON_RUNNING_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE = "\u{1F3C3}\u{1F3FE}\u{200D}\u{27A1}\u{FE0F}"; // 🏃🏾‍➡️  person running facing right: medium-dark skin tone
+    public const PERSON_RUNNING_FACING_RIGHT_DARK_SKIN_TONE = "\u{1F3C3}\u{1F3FF}\u{200D}\u{27A1}\u{FE0F}"; // 🏃🏿‍➡️  person running facing right: dark skin tone
+    public const WOMAN_RUNNING_FACING_RIGHT = "\u{1F3C3}\u{200D}\u{2640}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🏃‍♀️‍➡️  woman running facing right
+    public const WOMAN_RUNNING_FACING_RIGHT_LIGHT_SKIN_TONE = "\u{1F3C3}\u{1F3FB}\u{200D}\u{2640}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🏃🏻‍♀️‍➡️  woman running facing right: light skin tone
+    public const WOMAN_RUNNING_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE = "\u{1F3C3}\u{1F3FC}\u{200D}\u{2640}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🏃🏼‍♀️‍➡️  woman running facing right: medium-light skin tone
+    public const WOMAN_RUNNING_FACING_RIGHT_MEDIUM_SKIN_TONE = "\u{1F3C3}\u{1F3FD}\u{200D}\u{2640}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🏃🏽‍♀️‍➡️  woman running facing right: medium skin tone
+    public const WOMAN_RUNNING_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE = "\u{1F3C3}\u{1F3FE}\u{200D}\u{2640}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🏃🏾‍♀️‍➡️  woman running facing right: medium-dark skin tone
+    public const WOMAN_RUNNING_FACING_RIGHT_DARK_SKIN_TONE = "\u{1F3C3}\u{1F3FF}\u{200D}\u{2640}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🏃🏿‍♀️‍➡️  woman running facing right: dark skin tone
+    public const MAN_RUNNING_FACING_RIGHT = "\u{1F3C3}\u{200D}\u{2642}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🏃‍♂️‍➡️  man running facing right
+    public const MAN_RUNNING_FACING_RIGHT_LIGHT_SKIN_TONE = "\u{1F3C3}\u{1F3FB}\u{200D}\u{2642}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🏃🏻‍♂️‍➡️  man running facing right: light skin tone
+    public const MAN_RUNNING_FACING_RIGHT_MEDIUM_LIGHT_SKIN_TONE = "\u{1F3C3}\u{1F3FC}\u{200D}\u{2642}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🏃🏼‍♂️‍➡️  man running facing right: medium-light skin tone
+    public const MAN_RUNNING_FACING_RIGHT_MEDIUM_SKIN_TONE = "\u{1F3C3}\u{1F3FD}\u{200D}\u{2642}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🏃🏽‍♂️‍➡️  man running facing right: medium skin tone
+    public const MAN_RUNNING_FACING_RIGHT_MEDIUM_DARK_SKIN_TONE = "\u{1F3C3}\u{1F3FE}\u{200D}\u{2642}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🏃🏾‍♂️‍➡️  man running facing right: medium-dark skin tone
+    public const MAN_RUNNING_FACING_RIGHT_DARK_SKIN_TONE = "\u{1F3C3}\u{1F3FF}\u{200D}\u{2642}\u{FE0F}\u{200D}\u{27A1}\u{FE0F}"; // 🏃🏿‍♂️‍➡️  man running facing right: dark skin tone
     public const WOMAN_DANCING = "\u{1F483}"; // 💃  woman dancing
     public const WOMAN_DANCING_LIGHT_SKIN_TONE = "\u{1F483}\u{1F3FB}"; // 💃🏻  woman dancing: light skin tone
     public const WOMAN_DANCING_MEDIUM_LIGHT_SKIN_TONE = "\u{1F483}\u{1F3FC}"; // 💃🏼  woman dancing: medium-light skin tone
@@ -2315,7 +2425,6 @@ class Emoji
     public const COUPLE_WITH_HEART_WOMAN_WOMAN_DARK_SKIN_TONE_MEDIUM_SKIN_TONE = "\u{1F469}\u{1F3FF}\u{200D}\u{2764}\u{FE0F}\u{200D}\u{1F469}\u{1F3FD}"; // 👩🏿‍❤️‍👩🏽  couple with heart: woman, woman, dark skin tone, medium skin tone
     public const COUPLE_WITH_HEART_WOMAN_WOMAN_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = "\u{1F469}\u{1F3FF}\u{200D}\u{2764}\u{FE0F}\u{200D}\u{1F469}\u{1F3FE}"; // 👩🏿‍❤️‍👩🏾  couple with heart: woman, woman, dark skin tone, medium-dark skin tone
     public const COUPLE_WITH_HEART_WOMAN_WOMAN_DARK_SKIN_TONE = "\u{1F469}\u{1F3FF}\u{200D}\u{2764}\u{FE0F}\u{200D}\u{1F469}\u{1F3FF}"; // 👩🏿‍❤️‍👩🏿  couple with heart: woman, woman, dark skin tone
-    public const FAMILY = "\u{1F46A}"; // 👪  family
     public const FAMILY_MAN_WOMAN_BOY = "\u{1F468}\u{200D}\u{1F469}\u{200D}\u{1F466}"; // 👨‍👩‍👦  family: man, woman, boy
     public const FAMILY_MAN_WOMAN_GIRL = "\u{1F468}\u{200D}\u{1F469}\u{200D}\u{1F467}"; // 👨‍👩‍👧  family: man, woman, girl
     public const FAMILY_MAN_WOMAN_GIRL_BOY = "\u{1F468}\u{200D}\u{1F469}\u{200D}\u{1F467}\u{200D}\u{1F466}"; // 👨‍👩‍👧‍👦  family: man, woman, girl, boy
@@ -2345,6 +2454,11 @@ class Emoji
     public const BUST_IN_SILHOUETTE = "\u{1F464}"; // 👤  bust in silhouette
     public const BUSTS_IN_SILHOUETTE = "\u{1F465}"; // 👥  busts in silhouette
     public const PEOPLE_HUGGING = "\u{1FAC2}"; // 🫂  people hugging
+    public const FAMILY = "\u{1F46A}"; // 👪  family
+    public const FAMILY_ADULT_ADULT_CHILD = "\u{1F9D1}\u{200D}\u{1F9D1}\u{200D}\u{1F9D2}"; // 🧑‍🧑‍🧒  family: adult, adult, child
+    public const FAMILY_ADULT_ADULT_CHILD_CHILD = "\u{1F9D1}\u{200D}\u{1F9D1}\u{200D}\u{1F9D2}\u{200D}\u{1F9D2}"; // 🧑‍🧑‍🧒‍🧒  family: adult, adult, child, child
+    public const FAMILY_ADULT_CHILD = "\u{1F9D1}\u{200D}\u{1F9D2}"; // 🧑‍🧒  family: adult, child
+    public const FAMILY_ADULT_CHILD_CHILD = "\u{1F9D1}\u{200D}\u{1F9D2}\u{200D}\u{1F9D2}"; // 🧑‍🧒‍🧒  family: adult, child, child
     public const FOOTPRINTS = "\u{1F463}"; // 👣  footprints
     public const MONKEY_FACE = "\u{1F435}"; // 🐵  monkey face
     public const MONKEY = "\u{1F412}"; // 🐒  monkey
@@ -2433,6 +2547,7 @@ class Emoji
     public const WING = "\u{1FABD}"; // 🪽  wing
     public const BLACK_BIRD = "\u{1F426}\u{200D}\u{2B1B}"; // 🐦‍⬛  black bird
     public const GOOSE = "\u{1FABF}"; // 🪿  goose
+    public const PHOENIX = "\u{1F426}\u{200D}\u{1F525}"; // 🐦‍🔥  phoenix
     public const FROG = "\u{1F438}"; // 🐸  frog
     public const CROCODILE = "\u{1F40A}"; // 🐊  crocodile
     public const TURTLE = "\u{1F422}"; // 🐢  turtle
@@ -2503,6 +2618,7 @@ class Emoji
     public const WATERMELON = "\u{1F349}"; // 🍉  watermelon
     public const TANGERINE = "\u{1F34A}"; // 🍊  tangerine
     public const LEMON = "\u{1F34B}"; // 🍋  lemon
+    public const LIME = "\u{1F34B}\u{200D}\u{1F7E9}"; // 🍋‍🟩  lime
     public const BANANA = "\u{1F34C}"; // 🍌  banana
     public const PINEAPPLE = "\u{1F34D}"; // 🍍  pineapple
     public const MANGO = "\u{1F96D}"; // 🥭  mango
@@ -2534,6 +2650,7 @@ class Emoji
     public const CHESTNUT = "\u{1F330}"; // 🌰  chestnut
     public const GINGER_ROOT = "\u{1FADA}"; // 🫚  ginger root
     public const PEA_POD = "\u{1FADB}"; // 🫛  pea pod
+    public const BROWN_MUSHROOM = "\u{1F344}\u{200D}\u{1F7EB}"; // 🍄‍🟫  brown mushroom
     public const BREAD = "\u{1F35E}"; // 🍞  bread
     public const CROISSANT = "\u{1F950}"; // 🥐  croissant
     public const BAGUETTE_BREAD = "\u{1F956}"; // 🥖  baguette bread
@@ -3142,6 +3259,7 @@ class Emoji
     public const BALANCE_SCALE = "\u{2696}\u{FE0F}"; // ⚖️  balance scale
     public const WHITE_CANE = "\u{1F9AF}"; // 🦯  white cane
     public const LINK = "\u{1F517}"; // 🔗  link
+    public const BROKEN_CHAIN = "\u{26D3}\u{FE0F}\u{200D}\u{1F4A5}"; // ⛓️‍💥  broken chain
     public const CHAINS = "\u{26D3}\u{FE0F}"; // ⛓️  chains
     public const HOOK = "\u{1FA9D}"; // 🪝  hook
     public const TOOLBOX = "\u{1F9F0}"; // 🧰  toolbox
@@ -3657,7 +3775,7 @@ class Emoji
     public const FLAG_TURKMENISTAN = "\u{1F1F9}\u{1F1F2}"; // 🇹🇲  flag: Turkmenistan
     public const FLAG_TUNISIA = "\u{1F1F9}\u{1F1F3}"; // 🇹🇳  flag: Tunisia
     public const FLAG_TONGA = "\u{1F1F9}\u{1F1F4}"; // 🇹🇴  flag: Tonga
-    public const FLAG_TURKEY = "\u{1F1F9}\u{1F1F7}"; // 🇹🇷  flag: Turkey
+    public const FLAG_TURKIYE = "\u{1F1F9}\u{1F1F7}"; // 🇹🇷  flag: Türkiye
     public const FLAG_TRINIDAD_AND_TOBAGO = "\u{1F1F9}\u{1F1F9}"; // 🇹🇹  flag: Trinidad &amp; Tobago
     public const FLAG_TUVALU = "\u{1F1F9}\u{1F1FB}"; // 🇹🇻  flag: Tuvalu
     public const FLAG_TAIWAN = "\u{1F1F9}\u{1F1FC}"; // 🇹🇼  flag: Taiwan
@@ -3696,4 +3814,6 @@ class Emoji
     public const HUGGING_FACE = self::SMILING_FACE_WITH_OPEN_HANDS;
     /** @deprecated */
     public const POUTING_FACE = self::ENRAGED_FACE;
+    /** @deprecated */
+    public const FLAG_TURKEY = self::FLAG_TURKIYE;
 }

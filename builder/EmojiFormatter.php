@@ -61,6 +61,7 @@ class EmojiFormatter
             'í' => 'i',
             'ñ' => 'n',
             'ô' => 'o',
+            'ü' => 'u',
         ];
 
         $constant = str_replace(

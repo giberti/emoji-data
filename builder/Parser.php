@@ -7,7 +7,7 @@ use Twig\Loader\FilesystemLoader;
 
 require(__DIR__ . '/../vendor/autoload.php');
 
-$url = 'https://unicode.org/Public/emoji/15.0/emoji-test.txt';
+$url = 'https://unicode.org/Public/emoji/15.1/emoji-test.txt';
 $cacheFile = md5($url) . '.cache';
 
 if (file_exists($cacheFile)) {
