@@ -24,10 +24,10 @@ namespace Giberti\EmojiData;
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This file was automatically generated on 2023-10-15 using data files
+ * This file was automatically generated on 2024-09-11 using data files
  * provided by Unicode Inc.
  *
- * @link https://unicode.org/Public/emoji/15.1/emoji-test.txt Emoji Keyboard/Display Test Data
+ * @link https://unicode.org/Public/emoji/16.0/emoji-test.txt Emoji Keyboard/Display Test Data
  * @link https://www.unicode.org/license.html Unicode Data File license
  */
 class Emoji
@@ -89,6 +89,7 @@ class Emoji
     public const SLEEPY_FACE = "\u{1F62A}"; // 😪  sleepy face
     public const DROOLING_FACE = "\u{1F924}"; // 🤤  drooling face
     public const SLEEPING_FACE = "\u{1F634}"; // 😴  sleeping face
+    public const FACE_WITH_BAGS_UNDER_EYES = "\u{1FAE9}"; // 🫩  face with bags under eyes
     public const FACE_WITH_MEDICAL_MASK = "\u{1F637}"; // 😷  face with medical mask
     public const FACE_WITH_THERMOMETER = "\u{1F912}"; // 🤒  face with thermometer
     public const FACE_WITH_HEAD_BANDAGE = "\u{1F915}"; // 🤕  face with head-bandage
@@ -1384,12 +1385,12 @@ class Emoji
     public const MRS_CLAUS_MEDIUM_SKIN_TONE = "\u{1F936}\u{1F3FD}"; // 🤶🏽  Mrs. Claus: medium skin tone
     public const MRS_CLAUS_MEDIUM_DARK_SKIN_TONE = "\u{1F936}\u{1F3FE}"; // 🤶🏾  Mrs. Claus: medium-dark skin tone
     public const MRS_CLAUS_DARK_SKIN_TONE = "\u{1F936}\u{1F3FF}"; // 🤶🏿  Mrs. Claus: dark skin tone
-    public const MX_CLAUS = "\u{1F9D1}\u{200D}\u{1F384}"; // 🧑‍🎄  mx claus
-    public const MX_CLAUS_LIGHT_SKIN_TONE = "\u{1F9D1}\u{1F3FB}\u{200D}\u{1F384}"; // 🧑🏻‍🎄  mx claus: light skin tone
-    public const MX_CLAUS_MEDIUM_LIGHT_SKIN_TONE = "\u{1F9D1}\u{1F3FC}\u{200D}\u{1F384}"; // 🧑🏼‍🎄  mx claus: medium-light skin tone
-    public const MX_CLAUS_MEDIUM_SKIN_TONE = "\u{1F9D1}\u{1F3FD}\u{200D}\u{1F384}"; // 🧑🏽‍🎄  mx claus: medium skin tone
-    public const MX_CLAUS_MEDIUM_DARK_SKIN_TONE = "\u{1F9D1}\u{1F3FE}\u{200D}\u{1F384}"; // 🧑🏾‍🎄  mx claus: medium-dark skin tone
-    public const MX_CLAUS_DARK_SKIN_TONE = "\u{1F9D1}\u{1F3FF}\u{200D}\u{1F384}"; // 🧑🏿‍🎄  mx claus: dark skin tone
+    public const MX_CLAUS = "\u{1F9D1}\u{200D}\u{1F384}"; // 🧑‍🎄  Mx Claus
+    public const MX_CLAUS_LIGHT_SKIN_TONE = "\u{1F9D1}\u{1F3FB}\u{200D}\u{1F384}"; // 🧑🏻‍🎄  Mx Claus: light skin tone
+    public const MX_CLAUS_MEDIUM_LIGHT_SKIN_TONE = "\u{1F9D1}\u{1F3FC}\u{200D}\u{1F384}"; // 🧑🏼‍🎄  Mx Claus: medium-light skin tone
+    public const MX_CLAUS_MEDIUM_SKIN_TONE = "\u{1F9D1}\u{1F3FD}\u{200D}\u{1F384}"; // 🧑🏽‍🎄  Mx Claus: medium skin tone
+    public const MX_CLAUS_MEDIUM_DARK_SKIN_TONE = "\u{1F9D1}\u{1F3FE}\u{200D}\u{1F384}"; // 🧑🏾‍🎄  Mx Claus: medium-dark skin tone
+    public const MX_CLAUS_DARK_SKIN_TONE = "\u{1F9D1}\u{1F3FF}\u{200D}\u{1F384}"; // 🧑🏿‍🎄  Mx Claus: dark skin tone
     public const SUPERHERO = "\u{1F9B8}"; // 🦸  superhero
     public const SUPERHERO_LIGHT_SKIN_TONE = "\u{1F9B8}\u{1F3FB}"; // 🦸🏻  superhero: light skin tone
     public const SUPERHERO_MEDIUM_LIGHT_SKIN_TONE = "\u{1F9B8}\u{1F3FC}"; // 🦸🏼  superhero: medium-light skin tone
@@ -2460,6 +2461,7 @@ class Emoji
     public const FAMILY_ADULT_CHILD = "\u{1F9D1}\u{200D}\u{1F9D2}"; // 🧑‍🧒  family: adult, child
     public const FAMILY_ADULT_CHILD_CHILD = "\u{1F9D1}\u{200D}\u{1F9D2}\u{200D}\u{1F9D2}"; // 🧑‍🧒‍🧒  family: adult, child, child
     public const FOOTPRINTS = "\u{1F463}"; // 👣  footprints
+    public const FINGERPRINT = "\u{1FAC6}"; // 🫆  fingerprint
     public const MONKEY_FACE = "\u{1F435}"; // 🐵  monkey face
     public const MONKEY = "\u{1F412}"; // 🐒  monkey
     public const GORILLA = "\u{1F98D}"; // 🦍  gorilla
@@ -2569,6 +2571,11 @@ class Emoji
     public const SPIRAL_SHELL = "\u{1F41A}"; // 🐚  spiral shell
     public const CORAL = "\u{1FAB8}"; // 🪸  coral
     public const JELLYFISH = "\u{1FABC}"; // 🪼  jellyfish
+    public const CRAB = "\u{1F980}"; // 🦀  crab
+    public const LOBSTER = "\u{1F99E}"; // 🦞  lobster
+    public const SHRIMP = "\u{1F990}"; // 🦐  shrimp
+    public const SQUID = "\u{1F991}"; // 🦑  squid
+    public const OYSTER = "\u{1F9AA}"; // 🦪  oyster
     public const SNAIL = "\u{1F40C}"; // 🐌  snail
     public const BUTTERFLY = "\u{1F98B}"; // 🦋  butterfly
     public const BUG = "\u{1F41B}"; // 🐛  bug
@@ -2613,6 +2620,7 @@ class Emoji
     public const EMPTY_NEST = "\u{1FAB9}"; // 🪹  empty nest
     public const NEST_WITH_EGGS = "\u{1FABA}"; // 🪺  nest with eggs
     public const MUSHROOM = "\u{1F344}"; // 🍄  mushroom
+    public const LEAFLESS_TREE = "\u{1FABE}"; // 🪾  leafless tree
     public const GRAPES = "\u{1F347}"; // 🍇  grapes
     public const MELON = "\u{1F348}"; // 🍈  melon
     public const WATERMELON = "\u{1F349}"; // 🍉  watermelon
@@ -2651,6 +2659,7 @@ class Emoji
     public const GINGER_ROOT = "\u{1FADA}"; // 🫚  ginger root
     public const PEA_POD = "\u{1FADB}"; // 🫛  pea pod
     public const BROWN_MUSHROOM = "\u{1F344}\u{200D}\u{1F7EB}"; // 🍄‍🟫  brown mushroom
+    public const ROOT_VEGETABLE = "\u{1FADC}"; // 🫜  root vegetable
     public const BREAD = "\u{1F35E}"; // 🍞  bread
     public const CROISSANT = "\u{1F950}"; // 🥐  croissant
     public const BAGUETTE_BREAD = "\u{1F956}"; // 🥖  baguette bread
@@ -2702,11 +2711,6 @@ class Emoji
     public const DUMPLING = "\u{1F95F}"; // 🥟  dumpling
     public const FORTUNE_COOKIE = "\u{1F960}"; // 🥠  fortune cookie
     public const TAKEOUT_BOX = "\u{1F961}"; // 🥡  takeout box
-    public const CRAB = "\u{1F980}"; // 🦀  crab
-    public const LOBSTER = "\u{1F99E}"; // 🦞  lobster
-    public const SHRIMP = "\u{1F990}"; // 🦐  shrimp
-    public const SQUID = "\u{1F991}"; // 🦑  squid
-    public const OYSTER = "\u{1F9AA}"; // 🦪  oyster
     public const SOFT_ICE_CREAM = "\u{1F366}"; // 🍦  soft ice cream
     public const SHAVED_ICE = "\u{1F367}"; // 🍧  shaved ice
     public const ICE_CREAM = "\u{1F368}"; // 🍨  ice cream
@@ -3127,6 +3131,7 @@ class Emoji
     public const LONG_DRUM = "\u{1FA98}"; // 🪘  long drum
     public const MARACAS = "\u{1FA87}"; // 🪇  maracas
     public const FLUTE = "\u{1FA88}"; // 🪈  flute
+    public const HARP = "\u{1FA89}"; // 🪉  harp
     public const MOBILE_PHONE = "\u{1F4F1}"; // 📱  mobile phone
     public const MOBILE_PHONE_WITH_ARROW = "\u{1F4F2}"; // 📲  mobile phone with arrow
     public const TELEPHONE = "\u{260E}\u{FE0F}"; // ☎️  telephone
@@ -3265,6 +3270,7 @@ class Emoji
     public const TOOLBOX = "\u{1F9F0}"; // 🧰  toolbox
     public const MAGNET = "\u{1F9F2}"; // 🧲  magnet
     public const LADDER = "\u{1FA9C}"; // 🪜  ladder
+    public const SHOVEL = "\u{1FA8F}"; // 🪏  shovel
     public const ALEMBIC = "\u{2697}\u{FE0F}"; // ⚗️  alembic
     public const TEST_TUBE = "\u{1F9EA}"; // 🧪  test tube
     public const PETRI_DISH = "\u{1F9EB}"; // 🧫  petri dish
@@ -3450,6 +3456,7 @@ class Emoji
     public const COPYRIGHT = "\u{00A9}\u{FE0F}"; // ©️  copyright
     public const REGISTERED = "\u{00AE}\u{FE0F}"; // ®️  registered
     public const TRADE_MARK = "\u{2122}\u{FE0F}"; // ™️  trade mark
+    public const SPLATTER = "\u{1FADF}"; // 🫟  splatter
     public const KEYCAP_HASH = "\u{0023}\u{FE0F}\u{20E3}"; // #️⃣  keycap: #
     public const KEYCAP_ASTERISK = "\u{002A}\u{FE0F}\u{20E3}"; // *️⃣  keycap: *
     public const KEYCAP_0 = "\u{0030}\u{FE0F}\u{20E3}"; // 0️⃣  keycap: 0
@@ -3595,6 +3602,7 @@ class Emoji
     public const FLAG_CHINA = "\u{1F1E8}\u{1F1F3}"; // 🇨🇳  flag: China
     public const FLAG_COLOMBIA = "\u{1F1E8}\u{1F1F4}"; // 🇨🇴  flag: Colombia
     public const FLAG_CLIPPERTON_ISLAND = "\u{1F1E8}\u{1F1F5}"; // 🇨🇵  flag: Clipperton Island
+    public const FLAG_SARK = "\u{1F1E8}\u{1F1F6}"; // 🇨🇶  flag: Sark
     public const FLAG_COSTA_RICA = "\u{1F1E8}\u{1F1F7}"; // 🇨🇷  flag: Costa Rica
     public const FLAG_CUBA = "\u{1F1E8}\u{1F1FA}"; // 🇨🇺  flag: Cuba
     public const FLAG_CAPE_VERDE = "\u{1F1E8}\u{1F1FB}"; // 🇨🇻  flag: Cape Verde
